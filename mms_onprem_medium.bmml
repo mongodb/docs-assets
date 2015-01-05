@@ -1,0 +1,125 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1198" measuredH="657" mockupW="1036" mockupH="635">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="162" y="81" w="315" h="283" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="179" y="100" w="280" h="119" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::IconLabel" x="173" y="247" w="-1" h="-1" measuredW="138" measuredH="78" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DataBaseIcon%7Cxlarge</icon>
+        <text>MMS%20Application%20DB%20%28p%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="210" y="115" w="-1" h="-1" measuredW="152" measuredH="20" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>MMS%20Application%20Software</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="518" y="81" w="315" h="283" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="535" y="100" w="280" h="119" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="572" y="115" w="-1" h="-1" measuredW="152" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Backup%20Daemon%20Software</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::IconLabel" x="535" y="241" w="-1" h="-1" measuredW="58" measuredH="46" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>13421772</color>
+        <icon>DataBaseIcon%7Cmedium</icon>
+        <text>HEAD%20DB</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::IconLabel" x="533" y="295" w="-1" h="-1" measuredW="58" measuredH="46" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>DataBaseIcon%7Cmedium</icon>
+        <text>HEAD%20DB</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::IconLabel" x="602" y="225" w="-1" h="-1" measuredW="149" measuredH="78" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>DataBaseIcon%7Cxlarge</icon>
+        <text>Backup%20Blockstore%20DB%20%28p%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Canvas" x="883" y="81" w="315" h="283" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::IconLabel" x="966" y="115" w="-1" h="-1" measuredW="149" measuredH="78" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>DataBaseIcon%7Cxlarge</icon>
+        <text>Backup%20Blockstore%20DB%20%28s%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::IconLabel" x="971" y="232" w="-1" h="-1" measuredW="138" measuredH="78" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DataBaseIcon%7Cxlarge</icon>
+        <text>MMS%20Application%20DB%20%28s%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::StickyNote" x="518" y="380" w="327" h="277" measuredW="109" measuredH="123" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>11982760</color>
+        <text>*SERVER%202*%0A%20%0AThis%20server%20must%20satisfy%20the%20combined%20hardware%20and%20software%20requirements%20for%0A*%20Backup%20Daemon%20Hardware%0A*%20Backup%20Blockstore%20Database%20Hardware%0A%20%0ATips%3A%0A%20%0A*%20The%20HEAD%20DBs%20are%20dynamically%20created/maintained%20by%20the%20Backup%20Daemon.%20The%20disk%20partition%20on%20which%20they%20live%20is%20specified%20in%20the%20conf-daemon.properties%20file.%0A*%20For%20best%20performance%20HEAD%20DBs%20should%20never%20share%20a%20disk%20partition%20with%20the%20Backup%20Blockstore%20DB</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::IconLabel" x="185" y="162" w="-1" h="-1" measuredW="97" measuredH="45" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GeoLocationIcon%7Cmedium</icon>
+        <size>11</size>
+        <text>MMS%20HTTP%20Service</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::IconLabel" x="261" y="137" w="-1" h="-1" measuredW="109" measuredH="45" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GeoLocationIcon%7Cmedium</icon>
+        <size>11</size>
+        <text>Backup%20HTTP%20Service</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::IconLabel" x="349" y="162" w="-1" h="-1" measuredW="102" measuredH="45" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GeoLocationIcon%7Cmedium</icon>
+        <size>11</size>
+        <text>Backup%20Alert%20Service</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::IconLabel" x="602" y="148" w="-1" h="-1" measuredW="122" measuredH="45" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GeoLocationIcon%7Cmedium</icon>
+        <size>11</size>
+        <text>Backup%20Daemon%20Service</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::StickyNote" x="162" y="380" w="322" h="123" measuredW="109" measuredH="123" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>11982760</color>
+        <text>*SERVER%201*%0A%20%0AThis%20server%20must%20satisfy%20the%20combined%20hardware%20and%20software%20requirements%20for%20%0A*%20MMS%20Application%20Hardware%0A*%20MMS%20Application%20Database%20Hardware</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::StickyNote" x="881" y="380" w="317" h="277" measuredW="109" measuredH="123" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>11982760</color>
+        <text>*SERVER%203*%0A%20%0AIf%20you%20do%20not%20wish%20to%20run%20with%20replica%20sets%20for%20the%20Backup%20Blockstore%20database%20and%20the%20MMS%20Application%20database%2C%20this%20server%2C%20and%20the%20pictured%20arbiters%2C%20are%20optional.%20While%20we%20recommend%20using%20a%20replica%20set%20for%20data%20redundancy%2C%20it%20is%20not%20required.%0A%20%0A%20%0AThis%20server%20must%20satisfy%20the%20combined%20hardware%20and%20software%20requirements%20for%20%0A*%20MMS%20Application%20Database%20Hardware%0A*%20Backup%20Blockstore%20Database%20Hardware</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::IconLabel" x="320" y="247" w="-1" h="-1" measuredW="149" measuredH="46" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+        <icon>DataBaseIcon%7Cmedium</icon>
+        <text>Backup%20Blockstore%20DB%20%28a%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::IconLabel" x="677" y="310" w="-1" h="-1" measuredW="138" measuredH="46" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DataBaseIcon%7Cmedium</icon>
+        <text>MMS%20Application%20DB%20%28a%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="162" y="22" w="-1" h="-1" measuredW="809" measuredH="23" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>MMS%20Monitoring%20and%20Backup%3A%20Basic%20deployment%20with%20a%20single%20Backup%20Daemon%20and%20recommended%20data%20redudancy</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
