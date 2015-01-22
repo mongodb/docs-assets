@@ -10,3 +10,7 @@ build/*
 TAGS
 *~
 *.mo
+*.tar.gz
+*.bson
+*.json
+!*geo-coord-cache.json
