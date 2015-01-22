@@ -54,7 +54,7 @@ def get_coordinates(key, number, street, zip, cond, sleep=True):
         logger.info('getting coordinates for: {0}, ({1})'.format(addr_string, key))
         response = json.loads(urllib2.urlopen(url).read())
     except:
-        logger.erro('encountered request error, terminating gracefully')
+        logger.error('encountered request error, terminating gracefully')
         cond.limited = True
         return '_', {}
 
@@ -121,8 +121,7 @@ def cached_geo_resolution(mapping, cache, app):
             if key not in cache:
                 logger.debug('missing geo-coordinates for: ' + str(key))
             else:
-                mapping[key]['address']['coord'] = { 'lat': cache[key]['lat'],
-                                                     'long': cache[key]['long'] }
+                mapping[key]['address']['coord'] = [ cache[key]['long'], cache[key]['lat'] ]
         else:
             logger.debug('geocoordinates exist for ({0})'.format(key))
 
@@ -133,7 +132,7 @@ def cached_geo_resolution(mapping, cache, app):
 
 def clean_document(row):
     d = {
-        'resturant_id': row['CAMIS'],
+        'restaurant_id': row['CAMIS'],
         'name': row['DBA'].title(),
         'cuisine': row['CUISINE DESCRIPTION'],
         'borough': row['BORO'].title(),
@@ -141,7 +140,7 @@ def clean_document(row):
             'building': row['BUILDING'].strip(),
             'street': row['STREET'].strip().title(),
             'zipcode': row['ZIPCODE'],
-            'coord': {}
+            'coord': []
         },
         'grades': []
     }
@@ -182,7 +181,7 @@ def ingest_data(fn):
         for num, row in enumerate(reader):
             row, grade = clean_document(row)
 
-            rid = row['resturant_id']
+            rid = row['restaurant_id']
             if rid not in mapping:
                 mapping[rid] = row
 
@@ -200,7 +199,7 @@ def reload_data(json_file):
     with open(json_file, 'r') as f:
         for line in f.readlines():
             document = json.loads(line)
-            rid = document['resturant_id']
+            rid = document['restaurant_id']
 
             for grade in document['grades']:
                 grade['date'] = bson.EPOCH_AWARE + datetime.timedelta(seconds=float(grade['date']['$date'])/1000.0)
