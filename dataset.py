@@ -51,12 +51,20 @@ def get_coordinates(key, number, street, zip, cond, sleep=True):
         time.sleep(2)
 
     try:
-        logger.info('getting coordinates for: {0}, ({1})'.format(addr_string, key))
         response = json.loads(urllib2.urlopen(url).read())
-    except:
-        logger.error('encountered request error, terminating gracefully')
-        cond.limited = True
+        logger.info('got coordinates for: {0}, ({1})'.format(addr_string, key))
+    except urllib2.HTTPError as e:
+        if e.code == 500:
+            logger.warning('server issue, continuing.')
+        elif e.code == 403:
+            logger.error('encountered request error, terminating gracefully')
+            cond.limited = True
+        else:
+            logger.error('encountered request error, continuing cautiously')
         return '_', {}
+    except:
+        logger.error("({0}): {1}".format(type(e), e))
+
 
     if response['status'] == 'OVER_QUERY_LIMIT':
         cond.limited = False
@@ -82,8 +90,12 @@ def get_coordinates(key, number, street, zip, cond, sleep=True):
 def cached_geo_resolution(mapping, cache, app):
     cond = Condition()
 
+    count = 0
     for key, doc in mapping.items():
+        if count > 2500:
+            break
         if key not in cache:
+            count += 1
             if app is None:
                 key, cache[key] = get_coordinates(key, doc['address']['building'],
                                                   doc['address']['street'],
@@ -95,6 +107,7 @@ def cached_geo_resolution(mapping, cache, app):
                                    doc['address']['zipcode'], cond, True),
                               target=True,
                               dependency=None))
+
 
     if app is not None and len(app.queue) > 0:
         logger.info('starting geo cache update. There are {0} jobs in the queue'.format(str(len(app.queue))))
@@ -306,31 +319,6 @@ def main(basename):
         data_set_tasks(basename, app)
 
     logger.info('data set manipulation complete')
-
-def standard_main(basneame):
-    """
-    Functionally equivalent version of main() and data_set_tasks(), but this
-    version doesn't use parallelism or dependency checking from giza. For
-    illustrative and debugging purposes.
-    """
-
-    csv_fn = basename + '.csv'
-
-    with Timer('data ingestion'):
-        mapping = ingest_data(csv_fn)
-
-    logger.info("loaded {0} records".format(len(mapping)))
-
-    for ext, func in [('bson', export_bson_data), ('json', export_json_data)]:
-        fn = '.'.join((basename, ext))
-
-        logger.info('exporting {0} data'.format(ext))
-        with Timer('{0} data export'.format(ext)):
-            func(mapping, fn)
-
-    tar_dirname = basename + '.' + str(datetime.date.today())
-    tar_fn = tar_dirname + '.tar.gz'
-    create_tarball(tar_dirname, tar_fn)
 
 if __name__ == '__main__':
     try:
