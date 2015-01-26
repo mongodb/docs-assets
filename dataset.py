@@ -48,6 +48,8 @@ def get_coordinates(key, number, street, zip, cond, sleep=True):
     if cond.limited is True:
         return '_', {}
     elif cond.limited is False:
+        if random.random() > 0.5:
+            logger.info('hitting per-minute rate limiting, breathing')
         time.sleep(2)
 
     try:
@@ -75,7 +77,6 @@ def get_coordinates(key, number, street, zip, cond, sleep=True):
             return '_', {}
         else:
             if cond.limited is False:
-                logger.info('hitting per-minute rate limiting')
                 return '_', {}
             else:
                 cond.limited = False
