@@ -109,7 +109,6 @@ def cached_geo_resolution(mapping, cache, app):
                               target=True,
                               dependency=None))
 
-
     if app is not None and len(app.queue) > 0:
         logger.info('starting geo cache update. There are {0} jobs in the queue'.format(str(len(app.queue))))
         with Timer('running geo coordinate cache update'):
@@ -238,12 +237,16 @@ def json_date_cleanup(mapping):
     return mapping
 
 def export_json_data(json_fn, mapping):
+    # just be consistent for py3 standards:
+    data_to_export = [ doc for doc in mapping.values() ]
+    data_to_export.sort(key=lambda x: x['restaurant_id'])
+
     with open(json_fn, 'w') as jsonf:
-        for doc in mapping.values():
+        for doc in data_to_export:
             for grade in doc['grades']:
                 grade['date'] = bson.json_util.default(grade['date'])
 
-            json.dump(doc, jsonf)
+            json.dump(doc, jsonf, sort_keys=True)
             jsonf.write('\n')
 
     logger.info('wrote {0} export file'.format(json_fn))
