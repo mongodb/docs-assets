@@ -50669,6 +50669,11 @@
       "lat": 40.755278, 
       "long": -73.984167
    }, 
+   "41486672": {
+      "address": "101 Fulton Street, New York, NY 10038, USA", 
+      "lat": 40.7098119, 
+      "long": -74.0064049
+   }, 
    "41486693": {
       "address": "158 Nagle Avenue, New York, NY 10040, USA", 
       "lat": 40.8616506, 
@@ -53338,6 +53343,11 @@
       "address": "8618 4th Avenue, Brooklyn, NY 11209, USA", 
       "lat": 40.622366, 
       "long": -74.028864
+   }, 
+   "41519679": {
+      "address": "3532 Johnson Avenue, Bronx, NY 10463, USA", 
+      "lat": 40.8862015, 
+      "long": -73.9095445
    }, 
    "41519681": {
       "address": "92-8 173rd Street, Jamaica, NY 11433, USA", 
