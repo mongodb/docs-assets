@@ -82,11 +82,17 @@ def get_coordinates(key, number, street, zip, cond, sleep=True):
                 cond.limited = False
                 return get_coordinates(key, number,street, zip, cond, sleep)
     else:
-        result = response['results'][0]
+        try:
+            result = response['results'][0]
 
-        return key, { "address": result['formatted_address'],
-                      "lat": result['geometry']['location']['lat'],
-                      "long": result['geometry']['location']['lng'] }
+            return key, { "address": result['formatted_address'],
+                          "lat": result['geometry']['location']['lat'],
+                          "long": result['geometry']['location']['lng'] }
+        except IndexError:
+            logger.error('request error')
+            print(response)
+            return _, {}
+
 
 def cached_geo_resolution(mapping, cache, app):
     cond = Condition()
@@ -199,7 +205,12 @@ def ingest_data(fn):
                 mapping[rid] = row
 
             if grade != {}:
-                mapping[rid]['grades'].append(grade)
+                grade_dates = { }
+                for gr in mapping[rid]['grades']:
+                    grade_dates[gr['date']] = gr
+
+                if grade['date'] not in grade_dates:
+                    mapping[rid]['grades'].append(grade)
 
             logger.debug('now {0} grades in {1} record'.format(len(mapping[rid]['grades']), row['name']))
 
@@ -207,6 +218,10 @@ def ingest_data(fn):
 
 def reload_data(json_file):
     mapping = {}
+
+    if not os.path.isfile(json_file):
+        return ingest_data(os.path.splitext(json_file)[0] + '.csv')
+
     logger.info('reading data from json export file')
 
     with open(json_file, 'r') as f:
