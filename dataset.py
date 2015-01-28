@@ -197,6 +197,9 @@ def ingest_data(fn):
     logger.info('reading data from csv file: ' + fn)
     with open(fn, 'r') as f:
         reader = csv.DictReader(f)
+
+        grade_dates = []
+
         for num, row in enumerate(reader):
             row, grade = clean_document(row)
 
@@ -204,13 +207,16 @@ def ingest_data(fn):
             if rid not in mapping:
                 mapping[rid] = row
 
-            if grade != {}:
-                grade_dates = { }
-                for gr in mapping[rid]['grades']:
-                    grade_dates[gr['date']] = gr
+                #The clearing of grade_dates assumes that
+                #rows are sorted by restaurant id
+                #if not, easy enough to tweak, but currently, I believe
+                #the csv files are sorted.
+                grade_dates = []
 
+            if grade != {}:
                 if grade['date'] not in grade_dates:
                     mapping[rid]['grades'].append(grade)
+                    grade_dates.append(grade['date'])
 
             logger.debug('now {0} grades in {1} record'.format(len(mapping[rid]['grades']), row['name']))
 
