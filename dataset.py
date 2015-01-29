@@ -90,8 +90,7 @@ def get_coordinates(key, number, street, zip, cond, sleep=True):
                           "long": result['geometry']['location']['lng'] }
         except IndexError:
             logger.error('request error')
-            print(response)
-            return _, {}
+            return '_', {}
 
 
 def cached_geo_resolution(mapping, cache, app):
