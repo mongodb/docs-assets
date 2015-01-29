@@ -194,6 +194,11 @@
       "lat": 40.7135015, 
       "long": -73.8740217
    }, 
+   "40363590": {
+      "address": "86-69 Lefferts Boulevard, Richmond Hill, NY 11418, USA", 
+      "lat": 40.7001121, 
+      "long": -73.8309503
+   }, 
    "40363630": {
       "address": "1418 3rd Avenue, New York, NY 10028, USA", 
       "lat": 40.7753401, 
@@ -974,6 +979,11 @@
       "lat": 40.6134163, 
       "long": -74.1005771
    }, 
+   "40368065": {
+      "address": "320 East 43rd Street, New York, NY 10017, USA", 
+      "lat": 40.749869, 
+      "long": -73.971128
+   }, 
    "40368207": {
       "address": "5823 Avenue T, Brooklyn, NY 11234, USA", 
       "lat": 40.6157107, 
@@ -1508,6 +1518,11 @@
       "address": "46-19 Marathon Parkway, Flushing, NY 11362, USA", 
       "lat": 40.767005, 
       "long": -73.7363139
+   }, 
+   "40371906": {
+      "address": "3501 Avenue S, Brooklyn, NY 11234, USA", 
+      "lat": 40.6094715, 
+      "long": -73.9321411
    }, 
    "40372016": {
       "address": "275 Martling Avenue, Staten Island, NY 10314, USA", 
@@ -4964,6 +4979,11 @@
       "lat": 40.72726, 
       "long": -73.98299
    }, 
+   "40398700": {
+      "address": "75-12 37th Avenue, Queens, NY 11372, USA", 
+      "lat": 40.7488932, 
+      "long": -73.89039029999999
+   }, 
    "40398767": {
       "address": "13 Hanson Place, Brooklyn, NY 11217, USA", 
       "lat": 40.6852972, 
@@ -4973,6 +4993,11 @@
       "address": "1117 Lexington Avenue, New York, NY 10075, USA", 
       "lat": 40.7740372, 
       "long": -73.9593562
+   }, 
+   "40398811": {
+      "address": "50 West 33rd Street, New York, NY 10001, USA", 
+      "lat": 40.748556, 
+      "long": -73.9873606
    }, 
    "40398852": {
       "address": "2339 Arthur Avenue, Bronx, NY 10458, USA", 
@@ -5648,6 +5673,11 @@
       "address": "Georgetown Shopping Center, 2101 Ralph Avenue, Brooklyn, NY 11234, USA", 
       "lat": 40.6262933, 
       "long": -73.9175575
+   }, 
+   "40401453": {
+      "address": "430 Amsterdam Avenue, New York, NY 10024, USA", 
+      "lat": 40.78437, 
+      "long": -73.977807
    }, 
    "40401454": {
       "address": "49-11 Vernon Boulevard, Long Island City, NY 11101, USA", 
@@ -6714,6 +6744,11 @@
       "lat": 40.7608378, 
       "long": -73.8271018
    }, 
+   "40513021": {
+      "address": "Utica Avenue, Brooklyn, NY 11234, USA", 
+      "lat": 40.6246788, 
+      "long": -73.9275013
+   }, 
    "40513031": {
       "address": "522 Columbus Avenue, New York, NY 10024, USA", 
       "lat": 40.78610279999999, 
@@ -7109,6 +7144,11 @@
       "lat": 40.7291146, 
       "long": -73.7807163
    }, 
+   "40529991": {
+      "address": "1211 Avenue of the Americas, New York, NY 10036, USA", 
+      "lat": 40.7584118, 
+      "long": -73.9815467
+   }, 
    "40530159": {
       "address": "224 Avenue B, New York, NY 10009, USA", 
       "lat": 40.729192, 
@@ -7288,6 +7328,11 @@
       "address": "967 Nostrand Avenue, Brooklyn, NY 11225, USA", 
       "lat": 40.6650304, 
       "long": -73.9506875
+   }, 
+   "40536227": {
+      "address": "2845 Richmond Avenue, Staten Island, NY 10314, USA", 
+      "lat": 40.577238, 
+      "long": -74.1678299
    }, 
    "40536280": {
       "address": "229 East 84th Street, New York, NY 10028, USA", 
@@ -8008,6 +8053,11 @@
       "address": "89 Baxter Street, New York, NY 10013, USA", 
       "lat": 40.7168015, 
       "long": -73.9995899
+   }, 
+   "40559633": {
+      "address": "440 West 57th Street, New York, NY 10019, USA", 
+      "lat": 40.7683224, 
+      "long": -73.9873267
    }, 
    "40559634": {
       "address": "481 8th Avenue, New York, NY 10001, USA", 
@@ -9013,6 +9063,11 @@
       "address": "55 West 56th Street, New York, NY 10019, USA", 
       "lat": 40.7632476, 
       "long": -73.97709689999999
+   }, 
+   "40584158": {
+      "address": "69-25 Grand Avenue, Flushing, NY 11378, USA", 
+      "lat": 40.7265377, 
+      "long": -73.8947554
    }, 
    "40584579": {
       "address": "2036 Flatbush Avenue, Brooklyn, NY 11234, USA", 
@@ -10644,6 +10699,11 @@
       "lat": 40.7372741, 
       "long": -74.0018114
    }, 
+   "40658179": {
+      "address": "Columbia University, 3080 Broadway, New York, NY 10027, USA", 
+      "lat": 40.8120268, 
+      "long": -73.9605882
+   }, 
    "40658358": {
       "address": "9927 43rd Avenue, Elmhurst, NY 11373, USA", 
       "lat": 40.74532749999999, 
@@ -11479,6 +11539,11 @@
       "lat": 40.7577483, 
       "long": -73.9708163
    }, 
+   "40698410": {
+      "address": "6824 Colonial Road, Brooklyn, NY 11220, USA", 
+      "lat": 40.637575, 
+      "long": -74.0313602
+   }, 
    "40698537": {
       "address": "824 9th Avenue, New York, NY 10019, USA", 
       "lat": 40.7660018, 
@@ -11658,6 +11723,11 @@
       "address": "1007 Lexington Avenue, New York, NY 10021, USA", 
       "lat": 40.7707089, 
       "long": -73.961696
+   }, 
+   "40704635": {
+      "address": "123 Macdougal Street, New York, NY 10012, USA", 
+      "lat": 40.7303784, 
+      "long": -74.0003231
    }, 
    "40704853": {
       "address": "243 West 42nd Street, New York, NY 10036, USA", 
@@ -13928,6 +13998,11 @@
       "address": "3405 Church Avenue, Brooklyn, NY 11203, USA", 
       "lat": 40.6512331, 
       "long": -73.94546489999999
+   }, 
+   "40796892": {
+      "address": "221 Avenue A, New York, NY 10009, USA", 
+      "lat": 40.7302622, 
+      "long": -73.9808764
    }, 
    "40797452": {
       "address": "87 7th Avenue South, New York, NY 10014, USA", 
@@ -17044,6 +17119,11 @@
       "lat": 40.711337, 
       "long": -73.9608319
    }, 
+   "40918477": {
+      "address": "466 Lexington Avenue, New York, NY 10017, USA", 
+      "lat": 40.7536114, 
+      "long": -73.9747277
+   }, 
    "40918543": {
       "address": "625 8th Avenue, New York, NY 10018, USA", 
       "lat": 40.7569545, 
@@ -17838,6 +17918,11 @@
       "address": "3007 East Tremont Avenue, Bronx, NY 10461, USA", 
       "lat": 40.8402773, 
       "long": -73.8372546
+   }, 
+   "40938190": {
+      "address": "1745 Fulton Street, Brooklyn, NY 11233, USA", 
+      "lat": 40.6793054, 
+      "long": -73.9294299
    }, 
    "40938424": {
       "address": "133-48 Whitestone Expressway, Flushing, NY 11354, USA", 
@@ -18869,6 +18954,11 @@
       "lat": 40.7174595, 
       "long": -73.9961854
    }, 
+   "40965172": {
+      "address": "314 Bleecker Street, New York, NY 10014, USA", 
+      "lat": 40.73275340000001, 
+      "long": -74.0041141
+   }, 
    "40965177": {
       "address": "89-1 37th Avenue, Jackson Heights, NY 11372, USA", 
       "lat": 40.7504548, 
@@ -19123,6 +19213,11 @@
       "address": "136 West Houston Street, New York, NY 10012, USA", 
       "lat": 40.728041, 
       "long": -74.001491
+   }, 
+   "40973604": {
+      "address": "4024 White Plains Road, Bronx, NY 10466, USA", 
+      "lat": 40.8890208, 
+      "long": -73.8594916
    }, 
    "40973710": {
       "address": "368 Amsterdam Avenue, New York, NY 10024, USA", 
@@ -20083,6 +20178,11 @@
       "address": "41 West 33rd Street, New York, NY 10001, USA", 
       "lat": 40.7487723, 
       "long": -73.9870801
+   }, 
+   "41000961": {
+      "address": "69 7th Avenue South, New York, NY 10014, USA", 
+      "lat": 40.7322097, 
+      "long": -74.00337499999999
    }, 
    "41000982": {
       "address": "295 Flatbush Avenue, Brooklyn, NY 11217, USA", 
@@ -21319,6 +21419,11 @@
       "lat": 40.6773756, 
       "long": -73.9980537
    }, 
+   "41024941": {
+      "address": "15 MetroTech Roadway, Brooklyn, NY 11201, USA", 
+      "lat": 40.6939693, 
+      "long": -73.98476889999999
+   }, 
    "41024987": {
       "address": "961 Lexington Avenue, New York, NY 10021, USA", 
       "lat": 40.768901, 
@@ -21468,6 +21573,11 @@
       "address": "500 5th Avenue, New York, NY 10110, USA", 
       "lat": 40.7539609, 
       "long": -73.9810495
+   }, 
+   "41028925": {
+      "address": "1580 Broadway, New York, NY 10036, USA", 
+      "lat": 40.7596817, 
+      "long": -73.985012
    }, 
    "41029140": {
       "address": "100 Saint Marks Place, New York, NY 10009, USA", 
@@ -22043,6 +22153,11 @@
       "address": "295 Grand Street, Brooklyn, NY 11211, USA", 
       "lat": 40.7130584, 
       "long": -73.9573216
+   }, 
+   "41045928": {
+      "address": "90-15 Queens Boulevard, Queens, NY 11373, USA", 
+      "lat": 40.7342757, 
+      "long": -73.8706606
    }, 
    "41046187": {
       "address": "456 Lenox Avenue, New York, NY 10027, USA", 
@@ -23099,6 +23214,11 @@
       "lat": 40.7619363, 
       "long": -73.96810169999999
    }, 
+   "41074502": {
+      "address": "1474 86th Street, Brooklyn, NY 11228, USA", 
+      "lat": 40.6114847, 
+      "long": -74.0101308
+   }, 
    "41074503": {
       "address": "86-01 Justice Avenue, Flushing, NY 11373, USA", 
       "lat": 40.7379944, 
@@ -23853,6 +23973,11 @@
       "address": "81 East 7th Street, New York, NY 10003, USA", 
       "lat": 40.727385, 
       "long": -73.98612
+   }, 
+   "41090277": {
+      "address": "JFK Airport Passenger Services, John F. Kennedy International Airport (JFK), Queens, NY 11430, USA", 
+      "lat": 40.6434612, 
+      "long": -73.7822056
    }, 
    "41090838": {
       "address": "161-02 Union Turnpike, Flushing, NY 11366, USA", 
@@ -24903,6 +25028,11 @@
       "address": "408 5th Avenue, Brooklyn, NY 11215, USA", 
       "lat": 40.6703096, 
       "long": -73.9856777
+   }, 
+   "41115762": {
+      "address": "135-29 Springfield Boulevard, Jamaica, NY 11413, USA", 
+      "lat": 40.6779808, 
+      "long": -73.7543142
    }, 
    "41115908": {
       "address": "162 West 21st Street, New York, NY 10011, USA", 
@@ -27619,6 +27749,11 @@
       "lat": 40.7494103, 
       "long": -73.8698419
    }, 
+   "41174286": {
+      "address": "129-74 Queens Boulevard, Kew Gardens, NY 11415, USA", 
+      "lat": 40.7096948, 
+      "long": -73.82032199999999
+   }, 
    "41174290": {
       "address": "2578 Broadway, New York, NY 10025, USA", 
       "lat": 40.7954433, 
@@ -27818,6 +27953,11 @@
       "address": "345 East 12th Street, New York, NY 10003, USA", 
       "lat": 40.7304796, 
       "long": -73.9838469
+   }, 
+   "41177613": {
+      "address": "308 East 49th Street, New York, NY 10017, USA", 
+      "lat": 40.753806, 
+      "long": -73.96852799999999
    }, 
    "41177805": {
       "address": "5823 4th Avenue, Brooklyn, NY 11220, USA", 
@@ -28139,6 +28279,11 @@
       "lat": 40.6875218, 
       "long": -73.9572305
    }, 
+   "41184590": {
+      "address": "198 Lewis Avenue, Brooklyn, NY 11221, USA", 
+      "lat": 40.68986280000001, 
+      "long": -73.9364406
+   }, 
    "41184659": {
       "address": "Saint Nicholas Avenue, New York, NY 10033, USA", 
       "lat": 40.8486483, 
@@ -28409,6 +28554,11 @@
       "lat": 40.7121632, 
       "long": -73.88557449999999
    }, 
+   "41190952": {
+      "address": "10 Coleman Square, Jamaica, NY 11414, USA", 
+      "lat": 40.6599069, 
+      "long": -73.83056920000001
+   }, 
    "41191334": {
       "address": "145 1st Avenue, New York, NY 10003, USA", 
       "lat": 40.7281981, 
@@ -28483,6 +28633,11 @@
       "address": "788 Manhattan Avenue, Brooklyn, NY 11222, USA", 
       "lat": 40.7276009, 
       "long": -73.95273879999999
+   }, 
+   "41192508": {
+      "address": "130 Dyckman Street, New York, NY 10040, USA", 
+      "lat": 40.86259949999999, 
+      "long": -73.92564610000001
    }, 
    "41192835": {
       "address": "104-41 Queens Boulevard, Forest Hills, NY 11366, USA", 
@@ -29273,6 +29428,11 @@
       "address": "1391 Coney Island Avenue, Brooklyn, NY 11230, USA", 
       "lat": 40.62368, 
       "long": -73.96464499999999
+   }, 
+   "41212149": {
+      "address": "94 East 7th Street, New York, NY 10009, USA", 
+      "lat": 40.7266069, 
+      "long": -73.9853963
    }, 
    "41212249": {
       "address": "1054 Rogers Avenue, Brooklyn, NY 11226, USA", 
@@ -31904,6 +32064,11 @@
       "lat": 40.57904120000001, 
       "long": -73.9594497
    }, 
+   "41252052": {
+      "address": "676 6th Avenue, Grinnell, IA 50112, USA", 
+      "lat": 41.7461423, 
+      "long": -92.72773339999999
+   }, 
    "41252214": {
       "address": "310 Spring Street, New York, NY 10013, USA", 
       "lat": 40.7256964, 
@@ -32683,6 +32848,11 @@
       "address": "69th Avenue, Fresh Meadows, NY 11365, USA", 
       "lat": 40.7338137, 
       "long": -73.789351
+   }, 
+   "41265425": {
+      "address": "8016 Cooper Avenue, Ridgewood, NY 11385, USA", 
+      "lat": 40.7061056, 
+      "long": -73.8758026
    }, 
    "41265462": {
       "address": "120 West 44th Street, New York, NY 10036, USA", 
@@ -34198,6 +34368,11 @@
       "address": "605 Courtlandt Avenue, Bronx, NY 10451, USA", 
       "lat": 40.8177865, 
       "long": -73.9190679
+   }, 
+   "41290491": {
+      "address": "1596 3rd Avenue, New York, NY 10128, USA", 
+      "lat": 40.7811959, 
+      "long": -73.9525805
    }, 
    "41290515": {
       "address": "296 Knickerbocker Avenue, Brooklyn, NY 11237, USA", 
@@ -36114,6 +36289,11 @@
       "lat": 40.7327472, 
       "long": -73.9864722
    }, 
+   "41313499": {
+      "address": "100 1st Avenue, New York, NY 10009, USA", 
+      "lat": 40.7263679, 
+      "long": -73.9858182
+   }, 
    "41313515": {
       "address": "567 3rd Avenue, New York, NY 10016, USA", 
       "lat": 40.7478628, 
@@ -37543,6 +37723,11 @@
       "address": "685 Broadway, Brooklyn, NY 11206, USA", 
       "lat": 40.7020062, 
       "long": -73.9436278
+   }, 
+   "41336596": {
+      "address": "181 Lexington Avenue, New York, NY 10016, USA", 
+      "lat": 40.74457719999999, 
+      "long": -73.9807739
    }, 
    "41336612": {
       "address": "158 Bleecker Street, New York, NY 10012, USA", 
@@ -39144,6 +39329,11 @@
       "lat": 40.6413111, 
       "long": -73.77813909999999
    }, 
+   "41362524": {
+      "address": "JFK Airport Passenger Services, John F. Kennedy International Airport (JFK), Queens, NY 11430, USA", 
+      "lat": 40.6434612, 
+      "long": -73.7822056
+   }, 
    "41362530": {
       "address": "John F. Kennedy International Airport (JFK), Jamaica, NY 11430, USA", 
       "lat": 40.6413111, 
@@ -39433,6 +39623,11 @@
       "address": "133 Roebling Street, Brooklyn, NY 11211, USA", 
       "lat": 40.7146397, 
       "long": -73.95674989999999
+   }, 
+   "41366874": {
+      "address": "889 1st Avenue, New York, NY 10022, USA", 
+      "lat": 40.7537954, 
+      "long": -73.9664835
    }, 
    "41366910": {
       "address": "328 Bedford Avenue, Brooklyn, NY 11249, USA", 
@@ -40003,6 +40198,11 @@
       "address": "9th Avenue, New York, NY 10001, USA", 
       "lat": 40.7530589, 
       "long": -73.9965502
+   }, 
+   "41373322": {
+      "address": "53 West 106th Street, New York, NY 10025, USA", 
+      "lat": 40.7990538, 
+      "long": -73.96166769999999
    }, 
    "41373384": {
       "address": "780 3rd Avenue, New York, NY 10017, USA", 
@@ -40989,6 +41189,11 @@
       "lat": 40.8560715, 
       "long": -73.9002373
    }, 
+   "41383441": {
+      "address": "44 Richmond Terrace, Staten Island, NY 10301, USA", 
+      "lat": 40.6439697, 
+      "long": -74.0769073
+   }, 
    "41383494": {
       "address": "1011 Broadway, Brooklyn, NY 11221, USA", 
       "lat": 40.6960679, 
@@ -41388,6 +41593,11 @@
       "address": "165 West 26th Street, New York, NY 10001, USA", 
       "lat": 40.7459164, 
       "long": -73.9936869
+   }, 
+   "41387239": {
+      "address": "41-86 Bowne Street, Flushing, NY 11355, USA", 
+      "lat": 40.7573403, 
+      "long": -73.82245739999999
    }, 
    "41387292": {
       "address": "67-19 Parsons Boulevard, Fresh Meadows, NY 11365, USA", 
@@ -42824,6 +43034,11 @@
       "lat": 40.6504578, 
       "long": -73.9527786
    }, 
+   "41398824": {
+      "address": "145 Driggs Avenue, Brooklyn, NY 11222, USA", 
+      "lat": 40.7228459, 
+      "long": -73.944282
+   }, 
    "41398845": {
       "address": "254 East 125th Street, New York, NY 10035, USA", 
       "lat": 40.8027508, 
@@ -43364,6 +43579,11 @@
       "lat": 40.8543849, 
       "long": -73.912035
    }, 
+   "41405113": {
+      "address": "236 Troutman Street, Brooklyn, NY 11237, USA", 
+      "lat": 40.7024142, 
+      "long": -73.92662949999999
+   }, 
    "41405148": {
       "address": "2014 Broadway, New York, NY 10023, USA", 
       "lat": 40.7758988, 
@@ -43668,6 +43888,11 @@
       "address": "11 Broadway, New York, NY 10004, USA", 
       "lat": 40.7053128, 
       "long": -74.0139114
+   }, 
+   "41409373": {
+      "address": "4342 White Plains Road, Bronx, NY 10466, USA", 
+      "lat": 40.896621, 
+      "long": -73.85520799999999
    }, 
    "41409401": {
       "address": "727 Franklin Avenue, Brooklyn, NY 11238, USA", 
@@ -44128,6 +44353,11 @@
       "address": "367 West 36th Street, New York, NY 10018, USA", 
       "lat": 40.7546042, 
       "long": -73.9949331
+   }, 
+   "41416277": {
+      "address": "1688 East 16th Street, Brooklyn, NY 11229, USA", 
+      "lat": 40.6085204, 
+      "long": -73.95752399999999
    }, 
    "41416298": {
       "address": "782 Washington Avenue, Brooklyn, NY 11238, USA", 
@@ -44659,6 +44889,11 @@
       "lat": 40.7369867, 
       "long": -73.7100196
    }, 
+   "41422914": {
+      "address": "1475 2nd Avenue, New York, NY 10075, USA", 
+      "lat": 40.7719433, 
+      "long": -73.9563709
+   }, 
    "41422986": {
       "address": "316 West 36th Street, New York, NY 10018, USA", 
       "lat": 40.7535702, 
@@ -44734,6 +44969,11 @@
       "lat": 40.7501741, 
       "long": -73.9773555
    }, 
+   "41423962": {
+      "address": "730 61st Street, Brooklyn, NY 11220, USA", 
+      "lat": 40.6355972, 
+      "long": -74.01178209999999
+   }, 
    "41424031": {
       "address": "95-49 Roosevelt Avenue, Flushing, NY 11372, USA", 
       "lat": 40.7492781, 
@@ -44783,6 +45023,11 @@
       "address": "199 Grand Street, New York, NY 10013, USA", 
       "lat": 40.719002, 
       "long": -73.9970266
+   }, 
+   "41424414": {
+      "address": "2 Cortlandt Street, New York, NY 10007, USA", 
+      "lat": 40.71000129999999, 
+      "long": -74.0101388
    }, 
    "41424474": {
       "address": "Columbia University, 515 West 114th Street, New York, NY 10027, USA", 
@@ -46139,6 +46384,11 @@
       "lat": 40.728505, 
       "long": -73.99026099999999
    }, 
+   "41441583": {
+      "address": "69-10 Roosevelt Avenue, Flushing, NY 11377, USA", 
+      "lat": 40.74614200000001, 
+      "long": -73.89578399999999
+   }, 
    "41441594": {
       "address": "762 Franklin Avenue, Brooklyn, NY 11238, USA", 
       "lat": 40.6725951, 
@@ -46263,6 +46513,11 @@
       "address": "2445 Creston Avenue, Bronx, NY 10468, USA", 
       "lat": 40.8616336, 
       "long": -73.8989026
+   }, 
+   "41443574": {
+      "address": "45 West 39th Street, New York, NY 10018, USA", 
+      "lat": 40.75274599999999, 
+      "long": -73.98443999999999
    }, 
    "41443598": {
       "address": "20 East 76th Street, New York, NY 10021, USA", 
@@ -48899,6 +49154,11 @@
       "lat": 40.7419343, 
       "long": -74.00489689999999
    }, 
+   "41470237": {
+      "address": "483 Brook Avenue, Bronx, NY 10455, USA", 
+      "lat": 40.813523, 
+      "long": -73.916082
+   }, 
    "41470250": {
       "address": "10221 Jamaica Avenue, Richmond Hill, NY 11418, USA", 
       "lat": 40.69520199999999, 
@@ -49043,6 +49303,11 @@
       "address": "7302 3rd Avenue, Brooklyn, NY 11209, USA", 
       "lat": 40.63280049999999, 
       "long": -74.0275446
+   }, 
+   "41471825": {
+      "address": "1902 Adam Clayton Powell Junior Boulevard, New York, NY 10026, USA", 
+      "lat": 40.802902, 
+      "long": -73.95327
    }, 
    "41471828": {
       "address": "1141 Brighton Beach Avenue, Brooklyn, NY 11235, USA", 
@@ -50039,6 +50304,11 @@
       "lat": 40.7390799, 
       "long": -73.9917457
    }, 
+   "41480258": {
+      "address": "470 West 23rd Street, New York, NY 10011, USA", 
+      "lat": 40.7474374, 
+      "long": -74.00414289999999
+   }, 
    "41480283": {
       "address": "240 East 204th Street, Bronx, NY 10458, USA", 
       "lat": 40.8740931, 
@@ -50108,6 +50378,11 @@
       "address": "102-01 37th Avenue, Flushing, NY 11368, USA", 
       "lat": 40.7531427, 
       "long": -73.86533
+   }, 
+   "41480542": {
+      "address": "1487 Westchester Avenue, Bronx, NY 10472, USA", 
+      "lat": 40.8286141, 
+      "long": -73.8807197
    }, 
    "41480572": {
       "address": "40-11 30th Avenue, Astoria, NY 11103, USA", 
@@ -51278,6 +51553,11 @@
       "address": "785 Franklin Avenue, Brooklyn, NY 11238, USA", 
       "lat": 40.6719985, 
       "long": -73.9573041
+   }, 
+   "41493368": {
+      "address": "34 West 35th Street, New York, NY 10001, USA", 
+      "lat": 40.7496521, 
+      "long": -73.98581229999999
    }, 
    "41493671": {
       "address": "JFK Airport Passenger Services, John F. Kennedy International Airport (JFK), Queens, NY 11430, USA", 
@@ -53559,6 +53839,11 @@
       "lat": 40.6239384, 
       "long": -74.0305443
    }, 
+   "41523196": {
+      "address": "747 10th Avenue, New York, NY 10019, USA", 
+      "lat": 40.7652053, 
+      "long": -73.99191069999999
+   }, 
    "41523199": {
       "address": "91 East 161st Street, Bronx, NY 10451, USA", 
       "lat": 40.8276619, 
@@ -54098,6 +54383,11 @@
       "address": "36 West 52nd Street, New York, NY 10019, USA", 
       "lat": 40.7602918, 
       "long": -73.977887
+   }, 
+   "41530741": {
+      "address": "723 Fulton Street, Brooklyn, NY 11217, USA", 
+      "lat": 40.6872623, 
+      "long": -73.9763382
    }, 
    "41530756": {
       "address": "430 3rd Avenue, New York, NY 10016, USA", 
@@ -55089,6 +55379,11 @@
       "lat": 40.7074538, 
       "long": -74.00188419999999
    }, 
+   "41541625": {
+      "address": "2324 Arthur Avenue, Bronx, NY 10458, USA", 
+      "lat": 40.853859, 
+      "long": -73.88878849999999
+   }, 
    "41541660": {
       "address": "2 Pennsylvania Plaza, New York, NY 10121, USA", 
       "lat": 40.749712, 
@@ -55884,6 +56179,11 @@
       "lat": 40.7674409, 
       "long": -73.9840447
    }, 
+   "41548700": {
+      "address": "159 Duane Street, New York, NY 10013, USA", 
+      "lat": 40.7169248, 
+      "long": -74.0087471
+   }, 
    "41548724": {
       "address": "345 7th Avenue, New York, NY 10001, USA", 
       "lat": 40.7481246, 
@@ -56349,6 +56649,11 @@
       "lat": 40.7455705, 
       "long": -73.9807676
    }, 
+   "41553722": {
+      "address": "9508 63rd Drive, Flushing, NY 11374, USA", 
+      "lat": 40.7295224, 
+      "long": -73.8623325
+   }, 
    "41553745": {
       "address": "9 Chatham Square, New York, NY 10038, USA", 
       "lat": 40.7140212, 
@@ -56588,6 +56893,11 @@
       "address": "462 Court Street, Brooklyn, NY 11231, USA", 
       "lat": 40.6782512, 
       "long": -73.9981633
+   }, 
+   "41556136": {
+      "address": "1621 Westchester Avenue, Bronx, NY 10472, USA", 
+      "lat": 40.8297856, 
+      "long": -73.87444789999999
    }, 
    "41556150": {
       "address": "45-53 Bell Boulevard, Flushing, NY 11361, USA", 
@@ -57258,6 +57568,11 @@
       "address": "123-11 Jamaica Avenue, Jamaica, NY 11418, USA", 
       "lat": 40.700945, 
       "long": -73.82703699999999
+   }, 
+   "41562090": {
+      "address": "527 Myrtle Avenue, Brooklyn, NY 11205, USA", 
+      "lat": 40.6938952, 
+      "long": -73.9636257
    }, 
    "41562128": {
       "address": "89-49 165th Street, Jamaica, NY 11432, USA", 
@@ -58339,6 +58654,11 @@
       "lat": 40.729513, 
       "long": -73.989166
    }, 
+   "41571287": {
+      "address": "1046 Winthrop Street, Brooklyn, NY 11212, USA", 
+      "lat": 40.66064799999999, 
+      "long": -73.924661
+   }, 
    "41571320": {
       "address": "6124 Springfield Boulevard, Cambria Heights, NY 11411, USA", 
       "lat": 40.6968435, 
@@ -58558,6 +58878,11 @@
       "address": "144 East 24th Street, New York, NY 10010, USA", 
       "lat": 40.739827, 
       "long": -73.98404099999999
+   }, 
+   "41573931": {
+      "address": "72-08 Broadway, Flushing, NY 11372, USA", 
+      "lat": 40.7473809, 
+      "long": -73.8934987
    }, 
    "41573942": {
       "address": "137-42 Guy R Brewer Boulevard, Jamaica, NY 11434, USA", 
@@ -61499,6 +61824,11 @@
       "lat": 40.7568844, 
       "long": -73.99337179999999
    }, 
+   "41600476": {
+      "address": "63-52 Booth Street, Rego Park, NY 11374, USA", 
+      "lat": 40.7288059, 
+      "long": -73.8637064
+   }, 
    "41600495": {
       "address": "94-16 37th Avenue, Jackson Heights, NY 11372, USA", 
       "lat": 40.7508817, 
@@ -62639,6 +62969,16 @@
       "lat": 40.7291106, 
       "long": -73.98663359999999
    }, 
+   "41610752": {
+      "address": "680 Fulton Street, Brooklyn, NY 11217, USA", 
+      "lat": 40.6861975, 
+      "long": -73.9747651
+   }, 
+   "41610754": {
+      "address": "65th Street, Brooklyn, NY 11220, USA", 
+      "lat": 40.6360244, 
+      "long": -74.0183297
+   }, 
    "41610768": {
       "address": "23 East 23rd Street, New York, NY 10010, USA", 
       "lat": 40.7408815, 
@@ -63208,6 +63548,11 @@
       "address": "2 East 33rd Street, New York, NY 10016, USA", 
       "lat": 40.7475145, 
       "long": -73.9847695
+   }, 
+   "41614729": {
+      "address": "695 Park Avenue, New York, NY 10065, USA", 
+      "lat": 40.7687069, 
+      "long": -73.9646646
    }, 
    "41614732": {
       "address": "695 Park Avenue, New York, NY 10065, USA", 
@@ -63790,6 +64135,11 @@
       "long": -73.99426609999999
    }, 
    "41618402": {
+      "address": "4 Pennsylvania Plaza, New York, NY 10001, USA", 
+      "lat": 40.7508707, 
+      "long": -73.99426609999999
+   }, 
+   "41618405": {
       "address": "4 Pennsylvania Plaza, New York, NY 10001, USA", 
       "lat": 40.7508707, 
       "long": -73.99426609999999
@@ -64928,6 +65278,11 @@
       "address": "35 Androvette Street, Staten Island, NY 10309, USA", 
       "lat": 40.5351028, 
       "long": -74.23716519999999
+   }, 
+   "41626583": {
+      "address": "1122 Eastern Parkway, Brooklyn, NY 11213, USA", 
+      "lat": 40.66874809999999, 
+      "long": -73.9312209
    }, 
    "41626594": {
       "address": "14 Jay Street, Brooklyn, NY 11201, USA", 
@@ -68284,6 +68639,11 @@
       "lat": 40.7126028, 
       "long": -73.9558168
    }, 
+   "41644596": {
+      "address": "102 Mott Street, New York, NY 10013, USA", 
+      "lat": 40.717349, 
+      "long": -73.997141
+   }, 
    "41644679": {
       "address": "223 West 231st Street, Bronx, NY 10463, USA", 
       "lat": 40.8794154, 
@@ -68468,6 +68828,11 @@
       "address": "1 West 137th Street, New York, NY 10037, USA", 
       "lat": 40.8140894, 
       "long": -73.936708
+   }, 
+   "41645644": {
+      "address": "50 Central Park South, New York, NY 10019, USA", 
+      "lat": 40.7653143, 
+      "long": -73.9759584
    }, 
    "41645646": {
       "address": "19 Eldridge Street, New York, NY 10002, USA", 
@@ -71359,6 +71724,11 @@
       "lat": 40.7048689, 
       "long": -73.9176402
    }, 
+   "41665984": {
+      "address": "144-12 243rd Street, Rosedale, NY 11422, USA", 
+      "lat": 40.6600483, 
+      "long": -73.7395761
+   }, 
    "41666164": {
       "address": "32-23 Junction Boulevard, East Elmhurst, NY 11369, USA", 
       "lat": 40.7580176, 
@@ -72044,6 +72414,11 @@
       "lat": 40.728405, 
       "long": -73.985061
    }, 
+   "41672397": {
+      "address": "555 7th Avenue, Brooklyn, NY 11215, USA", 
+      "lat": 40.6593619, 
+      "long": -73.9878566
+   }, 
    "41672406": {
       "address": "1501 Saint Nicholas Avenue, New York, NY 10033, USA", 
       "lat": 40.8520015, 
@@ -72394,6 +72769,11 @@
       "lat": 40.699517, 
       "long": -73.944503
    }, 
+   "41674785": {
+      "address": "3850 Nostrand Avenue, Brooklyn, NY 11235, USA", 
+      "lat": 40.59002110000001, 
+      "long": -73.9400943
+   }, 
    "41674832": {
       "address": "401 7th Avenue, New York, NY 10001, USA", 
       "lat": 40.7499318, 
@@ -72418,6 +72798,11 @@
       "address": "434 Kings Highway, Brooklyn, NY 11223, USA", 
       "lat": 40.6041866, 
       "long": -73.9741244
+   }, 
+   "41675163": {
+      "address": "331 East 138th Street, Bronx, NY 10454, USA", 
+      "lat": 40.810098, 
+      "long": -73.9249234
    }, 
    "41675246": {
       "address": "254-29 Horace Harding Expressway, Little Neck, NY 11362, USA", 
@@ -74109,6 +74494,11 @@
       "lat": 40.757658, 
       "long": -73.9872729
    }, 
+   "41687204": {
+      "address": "8303 3rd Avenue, Brooklyn, NY 11209, USA", 
+      "lat": 40.6254139, 
+      "long": -74.0299697
+   }, 
    "41687206": {
       "address": "222 West Houston Street, New York, NY 10014, USA", 
       "lat": 40.728786, 
@@ -75563,6 +75953,11 @@
       "address": "2456 Williamsbridge Road, Bronx, NY 10469, USA", 
       "lat": 40.8621296, 
       "long": -73.8576958
+   }, 
+   "41694962": {
+      "address": "41-28 Main Street, Flushing, NY 11355, USA", 
+      "lat": 40.757178, 
+      "long": -73.829437
    }, 
    "41694984": {
       "address": "1275 1st Avenue, New York, NY 10065, USA", 
@@ -77529,6 +77924,11 @@
       "lat": 40.8353043, 
       "long": -73.90298899999999
    }, 
+   "41703681": {
+      "address": "258 West 109th Street, New York, NY 10025, USA", 
+      "lat": 40.8032671, 
+      "long": -73.966815
+   }, 
    "41703703": {
       "address": "1075 Allerton Avenue, Bronx, NY 10469, USA", 
       "lat": 40.86567549999999, 
@@ -77623,6 +78023,11 @@
       "address": "36 West 26th Street, New York, NY 10010, USA", 
       "lat": 40.744179, 
       "long": -73.99066859999999
+   }, 
+   "41704089": {
+      "address": "85 10th Avenue, New York, NY 10011, USA", 
+      "lat": 40.7432086, 
+      "long": -74.0079542
    }, 
    "41704109": {
       "address": "61 Grove Street, New York, NY 10014, USA", 
@@ -77733,6 +78138,11 @@
       "address": "120 East 34th Street, New York, NY 10016, USA", 
       "lat": 40.7464441, 
       "long": -73.9802022
+   }, 
+   "41704372": {
+      "address": "100-02 103rd Avenue, Jamaica, NY 11417, USA", 
+      "lat": 40.683165, 
+      "long": -73.840907
    }, 
    "41704391": {
       "address": "61 Mott Street, New York, NY 10013, USA", 
@@ -80799,6 +81209,11 @@
       "lat": 40.7058609, 
       "long": -74.0122263
    }, 
+   "41717466": {
+      "address": "524 New Lots Avenue, Brooklyn, NY 11207, USA", 
+      "lat": 40.6634987, 
+      "long": -73.88877
+   }, 
    "41717500": {
       "address": "150 East 14th Street, New York, NY 10003, USA", 
       "lat": 40.7333073, 
@@ -81493,6 +81908,11 @@
       "address": "99 Nassau Avenue, Brooklyn, NY 11222, USA", 
       "lat": 40.7241413, 
       "long": -73.9502713
+   }, 
+   "41720316": {
+      "address": "161-30 Cross Bay Boulevard, Jamaica, NY 11414, USA", 
+      "lat": 40.6548749, 
+      "long": -73.839229
    }, 
    "41720358": {
       "address": "142 49th Street, Brooklyn, NY 11232, USA", 
@@ -82794,6 +83214,16 @@
       "lat": 40.619773, 
       "long": -73.916887
    }, 
+   "50000241": {
+      "address": "178-17 Union Turnpike, Fresh Meadows, NY 11366, USA", 
+      "lat": 40.7265935, 
+      "long": -73.7893548
+   }, 
+   "50000249": {
+      "address": "29-05 Broadway, Long Island City, NY 11106, USA", 
+      "lat": 40.7628026, 
+      "long": -73.92657799999999
+   }, 
    "50000252": {
       "address": "1787 Coney Island Avenue, Brooklyn, NY 11230, USA", 
       "lat": 40.613809, 
@@ -83338,6 +83768,11 @@
       "address": "689 9th Avenue, New York, NY 10036, USA", 
       "lat": 40.76199700000001, 
       "long": -73.99040099999999
+   }, 
+   "50000457": {
+      "address": "1183 Broadway, Brooklyn, NY 11221, USA", 
+      "lat": 40.692737, 
+      "long": -73.927207
    }, 
    "50000458": {
       "address": "358 East 2nd Street, Brooklyn, NY 11218, USA", 
@@ -85414,6 +85849,11 @@
       "lat": 40.6771916, 
       "long": -73.93407479999999
    }, 
+   "50001272": {
+      "address": "1520 College Point Boulevard, College Point, NY 11356, USA", 
+      "lat": 40.783613, 
+      "long": -73.8458543
+   }, 
    "50001274": {
       "address": "2702 Avenue U, Brooklyn, NY 11229, USA", 
       "lat": 40.5999361, 
@@ -85618,6 +86058,11 @@
       "address": "4915 8th Avenue, Brooklyn, NY 11220, USA", 
       "lat": 40.6412279, 
       "long": -74.0033821
+   }, 
+   "50001365": {
+      "address": "2811 Nostrand Avenue, Brooklyn, NY 11229, USA", 
+      "lat": 40.61569069999999, 
+      "long": -73.94449519999999
    }, 
    "50001370": {
       "address": "301 Keap Street, Brooklyn, NY 11211, USA", 
@@ -86793,6 +87238,11 @@
       "address": "1501 Sheepshead Bay Road, Brooklyn, NY 11235, USA", 
       "lat": 40.5873839, 
       "long": -73.9542323
+   }, 
+   "50001825": {
+      "address": "641 Lydig Avenue, Bronx, NY 10462, USA", 
+      "lat": 40.854653, 
+      "long": -73.86814369999999
    }, 
    "50001826": {
       "address": "167 Main Street, Staten Island, NY 10307, USA", 
@@ -90319,6 +90769,26 @@
       "lat": 40.8682899, 
       "long": -73.9185869
    }, 
+   "50003413": {
+      "address": "139 Essex Street, New York, NY 10002, USA", 
+      "lat": 40.72038999999999, 
+      "long": -73.9875662
+   }, 
+   "50003414": {
+      "address": "31 East 21st Street, New York, NY 10010, USA", 
+      "lat": 40.7396125, 
+      "long": -73.9884794
+   }, 
+   "50003415": {
+      "address": "139 Havemeyer Street, Brooklyn, NY 11211, USA", 
+      "lat": 40.7119672, 
+      "long": -73.9571232
+   }, 
+   "50003416": {
+      "address": "71-22 Roosevelt Avenue, Flushing, NY 11372, USA", 
+      "lat": 40.7464388, 
+      "long": -73.8940203
+   }, 
    "50003424": {
       "address": "37 West 54th Street, New York, NY 10019, USA", 
       "lat": 40.762111, 
@@ -92949,6 +93419,11 @@
       "lat": 40.8186934, 
       "long": -73.9376221
    }, 
+   "50005224": {
+      "address": "35 White Street, New York, NY 10013, USA", 
+      "lat": 40.7187011, 
+      "long": -74.0045033
+   }, 
    "50005237": {
       "address": "53-03 39th Avenue, Flushing, NY 11377, USA", 
       "lat": 40.749252, 
@@ -94024,10 +94499,20 @@
       "lat": 40.5933084, 
       "long": -73.9790642
    }, 
+   "50005805": {
+      "address": "127 Stanton Street, New York, NY 10002, USA", 
+      "lat": 40.7207099, 
+      "long": -73.98670299999999
+   }, 
    "50005807": {
       "address": "247-12 South Conduit Avenue, Rosedale, NY 11422, USA", 
       "lat": 40.66515, 
       "long": -73.7307371
+   }, 
+   "50005809": {
+      "address": "3 Doyers Street, New York, NY 10013, USA", 
+      "lat": 40.7142303, 
+      "long": -73.9979609
    }, 
    "50005818": {
       "address": "108-85 Sutphin Boulevard, Jamaica, NY 11435, USA", 
@@ -96164,6 +96649,11 @@
       "lat": 40.7255312, 
       "long": -73.9951947
    }, 
+   "50007606": {
+      "address": "84 7th Avenue, New York, NY 10011, USA", 
+      "lat": 40.739407, 
+      "long": -73.99908479999999
+   }, 
    "50007607": {
       "address": "46-22 Kissena Boulevard, Flushing, NY 11355, USA", 
       "lat": 40.749917, 
@@ -97479,6 +97969,11 @@
       "lat": 40.7071791, 
       "long": -74.0050148
    }, 
+   "50008609": {
+      "address": "225 Liberty Street, New York, NY 10281, USA", 
+      "lat": 40.71137470000001, 
+      "long": -74.0156618
+   }, 
    "50008610": {
       "address": "90-15 Queens Boulevard, Queens, NY 11373, USA", 
       "lat": 40.7342757, 
@@ -97693,6 +98188,11 @@
       "address": "97 Chrystie Street, New York, NY 10002, USA", 
       "lat": 40.7178449, 
       "long": -73.994306
+   }, 
+   "50008750": {
+      "address": "1241 Prospect Avenue, Brooklyn, NY 11218, USA", 
+      "lat": 40.65252, 
+      "long": -73.9758389
    }, 
    "50008761": {
       "address": "149 Broadway, Brooklyn, NY 11211, USA", 
@@ -97918,6 +98418,11 @@
       "address": "352 Utica Avenue, Brooklyn, NY 11213, USA", 
       "lat": 40.665953, 
       "long": -73.931648
+   }, 
+   "50008989": {
+      "address": "2075 Haviland Avenue, Bronx, NY 10472, USA", 
+      "lat": 40.83025, 
+      "long": -73.854033
    }, 
    "50008990": {
       "address": "3465 East Tremont Avenue, Bronx, NY 10465, USA", 
@@ -98349,6 +98854,11 @@
       "lat": 40.6019616, 
       "long": -74.00314089999999
    }, 
+   "50009407": {
+      "address": "189 Amsterdam Avenue, New York, NY 10023, USA", 
+      "lat": 40.7763129, 
+      "long": -73.9830566
+   }, 
    "50009411": {
       "address": "94-18 Sutphin Boulevard, Jamaica, NY 11435, USA", 
       "lat": 40.6984884, 
@@ -98643,6 +99153,11 @@
       "address": "87-22 Lefferts Boulevard, Jamaica, NY 11418, USA", 
       "lat": 40.699302, 
       "long": -73.830917
+   }, 
+   "50009632": {
+      "address": "301 East 181st Street, Bronx, NY 10457, USA", 
+      "lat": 40.8541195, 
+      "long": -73.89910720000002
    }, 
    "50009642": {
       "address": "227 Centre Street, New York, NY 10013, USA", 
@@ -99883,6 +100398,11 @@
       "address": "146 Bowery, New York, NY 10013, USA", 
       "lat": 40.7194417, 
       "long": -73.9949668
+   }, 
+   "50010610": {
+      "address": "215 Union Street, Brooklyn, NY 11231, USA", 
+      "lat": 40.6834895, 
+      "long": -73.9993095
    }, 
    "50010628": {
       "address": "114 Nassau Avenue, Brooklyn, NY 11222, USA", 
@@ -102969,6 +103489,11 @@
       "lat": 40.704208, 
       "long": -74.01209399999999
    }, 
+   "50013026": {
+      "address": "1020 3rd Avenue, New York, NY 10065, USA", 
+      "lat": 40.7626599, 
+      "long": -73.966196
+   }, 
    "50013027": {
       "address": "132 West 45th Street, New York, NY 10036, USA", 
       "lat": 40.757148, 
@@ -103249,6 +103774,11 @@
       "lat": 40.8665658, 
       "long": -73.8289779
    }, 
+   "50013349": {
+      "address": "163 East 52nd Street, New York, NY 10022, USA", 
+      "lat": 40.7573807, 
+      "long": -73.9701338
+   }, 
    "50013363": {
       "address": "Chrysostom Hall, 4513 Manhattan College Parkway, Bronx, NY 10471, USA", 
       "lat": 40.8906248, 
@@ -103503,6 +104033,11 @@
       "address": "410 West 42nd Street, New York, NY 10036, USA", 
       "lat": 40.75837629999999, 
       "long": -73.9934141
+   }, 
+   "50013561": {
+      "address": "414 West 46th Street, New York, NY 10036, USA", 
+      "lat": 40.7612125, 
+      "long": -73.991793
    }, 
    "50013579": {
       "address": "3682 Nostrand Avenue, Brooklyn, NY 11229, USA", 
@@ -104763,6 +105298,11 @@
       "address": "9 East 53rd Street, New York, NY 10022, USA", 
       "lat": 40.760274, 
       "long": -73.97490499999999
+   }, 
+   "50014638": {
+      "address": "111 Ditmas Avenue, Brooklyn, NY 11218, USA", 
+      "lat": 40.6355893, 
+      "long": -73.97770059999999
    }, 
    "50014639": {
       "address": "1400 Broadway, New York, NY 10018, USA", 
@@ -106544,6 +107084,11 @@
       "lat": 40.590502, 
       "long": -73.972736
    }, 
+   "50015881": {
+      "address": "924 East Tremont Avenue, Bronx, NY 10460, USA", 
+      "lat": 40.8417133, 
+      "long": -73.8835642
+   }, 
    "50015884": {
       "address": "323 Sand Lane, Staten Island, NY 10305, USA", 
       "lat": 40.592104, 
@@ -106738,6 +107283,11 @@
       "address": "109-03 Liberty Avenue, Jamaica, NY 11419, USA", 
       "lat": 40.684436, 
       "long": -73.832516
+   }, 
+   "50016003": {
+      "address": "1000 Washington Avenue, Brooklyn, NY 11225, USA", 
+      "lat": 40.6675708, 
+      "long": -73.9619036
    }, 
    "50016010": {
       "address": "600 East 14th Street, New York, NY 10009, USA", 
@@ -107048,6 +107598,16 @@
       "address": "113 Mott Street, New York, NY 10013, USA", 
       "lat": 40.7176376, 
       "long": -73.9974074
+   }, 
+   "50016172": {
+      "address": "3211 White Plains Road, Bronx, NY 10467, USA", 
+      "lat": 40.8718432, 
+      "long": -73.8673621
+   }, 
+   "50016173": {
+      "address": "32-02 Broadway, Long Island City, NY 11106, USA", 
+      "lat": 40.7613105, 
+      "long": -73.9246344
    }, 
    "50016176": {
       "address": "134 East 27th Street, New York, NY 10016, USA", 
@@ -107553,6 +108113,11 @@
       "address": "232 Willis Avenue, Bronx, NY 10454, USA", 
       "lat": 40.8087036, 
       "long": -73.9227813
+   }, 
+   "50016496": {
+      "address": "4093 Broadway, New York, NY 10032, USA", 
+      "lat": 40.8445378, 
+      "long": -73.9391488
    }, 
    "50016498": {
       "address": "37-10 30th Avenue, Astoria, NY 11103, USA", 
@@ -108168,6 +108733,11 @@
       "address": "25-22 Steinway Street, Long Island City, NY 11103, USA", 
       "lat": 40.7673496, 
       "long": -73.9123693
+   }, 
+   "50016867": {
+      "address": "157 West 47th Street, New York, NY 10036, USA", 
+      "lat": 40.75908099999999, 
+      "long": -73.983701
    }, 
    "50016871": {
       "address": "1543 Broadway, Brooklyn, NY 11221, USA", 
@@ -109483,6 +110053,11 @@
       "address": "3890 Sedgwick Avenue, Bronx, NY 10463, USA", 
       "lat": 40.88257189999999, 
       "long": -73.8933522
+   }, 
+   "50017599": {
+      "address": "1310 78th Street, Brooklyn, NY 11228, USA", 
+      "lat": 40.6184153, 
+      "long": -74.0089703
    }, 
    "50017603": {
       "address": "79-22 Parsons Boulevard, Flushing, NY 11366, USA", 
