@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3300 2550" style="enable-background:new 0 0 3300 2550;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FF0000;stroke-width:8;stroke-dasharray:20.2012,15.1509;}
+	.st1{font-family:'MyriadPro-Bold';}
+	.st2{font-size:144px;}
+	.st3{fill:#2E3192;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:127px;}
+	.st6{fill:#FF0000;}
+	.st7{font-size:109px;}
+	.st8{fill:#00A651;}
+	.st9{font-size:111px;}
+	.st10{fill:none;stroke:#231F20;stroke-width:4;}
+	.st11{display:none;enable-background:new    ;}
+	.st12{font-size:100px;}
+	.st13{font-size:119px;}
+	.st14{fill:none;stroke:#231F20;stroke-width:8;}
+	.st15{fill:#231F20;}
+	.st16{fill:none;stroke:#FF0000;stroke-width:8;}
+	.st17{fill:none;stroke:#00A651;stroke-width:8;}
+	.st18{fill:none;stroke:#2E3192;stroke-width:8;}
+	.st19{fill:none;stroke:#FF0000;stroke-width:8;stroke-dasharray:19.5334,14.6501;}
+	.st20{fill:none;stroke:#FF0000;stroke-width:8;stroke-dasharray:19.5406,14.6554;}
+	.st21{fill:none;stroke:#FF0000;stroke-width:8;stroke-dasharray:20.5277,15.3958;}
+	.st22{fill:none;stroke:#FF0000;stroke-width:8;stroke-dasharray:18.6172,13.9629;}
+	.st23{fill:none;stroke:#FF0000;stroke-width:8;stroke-dasharray:21.3258,15.9943;}
+	.st24{fill:none;stroke:#00A651;stroke-width:8;stroke-linejoin:bevel;}
+	.st25{fill:none;stroke:#FF0000;stroke-width:8;stroke-dasharray:16.1188,16.1188;}
+</style>
+<g id="Dotted_circle_red">
+	<g>
+		<ellipse class="st0" cx="1837.6" cy="1031.6" rx="184" ry="89"/>
+	</g>
+</g>
+<g id="TEXT">
+	<text transform="matrix(1 0 0 1 477.5563 1866.9564)" class="st1 st2">APP 1</text>
+	<text transform="matrix(1 0 0 1 2332.6753 1866.9562)" class="st1 st2">APP 2</text>
+	<text transform="matrix(1 0 0 1 287.9987 1453.42)" class="st3 st4 st5">R0</text>
+	<text transform="matrix(1 0 0 1 827.9987 1453.4194)" class="st3 st4 st5">R0</text>
+	<text transform="matrix(1 0 0 1 1353.9987 1453.4194)" class="st3 st4 st5">R1</text>
+	<text transform="matrix(1 0 0 1 1751.9987 1453.4194)" class="st3 st4 st5">R1</text>
+	<text transform="matrix(1 0 0 1 2279.9985 1453.4194)" class="st3 st4 st5">R1</text>
+	<text transform="matrix(1 0 0 1 2803.9985 1453.4194)" class="st3 st4 st5">R2</text>
+	<text transform="matrix(1 0 0 1 562.9985 1454.1362)" class="st6 st4 st7">W1</text>
+	<text transform="matrix(1 0 0 1 737.2122 1073.605)" class="st6 st4 st7">W1</text>
+	<text transform="matrix(1 0 0 1 1421.9451 683.4505)" class="st6 st4 st7">W1</text>
+	<text transform="matrix(1 0 0 1 2304.4229 1073.605)" class="st6 st4 st7">W2</text>
+	<text transform="matrix(1 0 0 1 2008.6803 1455.1362)" class="st6 st4 st7">W2</text>
+	<text transform="matrix(1 0 0 1 2541.2615 1448.137)" class="st8 st4 st7">C2</text>
+	<text transform="matrix(1 0 0 1 1096.5859 1448.137)" class="st8 st4 st7">C1</text>
+	<text transform="matrix(1 0 0 1 1185.8291 1063.6052)" class="st8 st4 st7">C1</text>
+	<text transform="matrix(1 0 0 1 1816.0454 678.4503)" class="st8 st4 st7">C1</text>
+	<text transform="matrix(1 0 0 1 1708.7208 1063.605)" class="st6 st4 st7">W1S2</text>
+	<text transform="matrix(1 0 0 1 76.0809 679.189)" class="st1 st9">S2</text>
+	<text transform="matrix(1 0 0 1 76.0811 1071.0809)" class="st1 st9">S1</text>
+	<text transform="matrix(1 0 0 1 76.0812 1454.8647)" class="st1 st9">P</text>
+</g>
+<g id="rectangle_S2">
+	<rect x="57" y="531" class="st10" width="3192" height="225"/>
+	<text transform="matrix(1 0 0 1 462.5677 2130.5405)" class="st11 st4 st12">(Writing)</text>
+	<text transform="matrix(1 0 0 1 2211.2158 2100.8105)" class="st11 st4 st12">(Just reading in</text>
+	<text transform="matrix(1 0 0 1 2211.2158 2220.8105)" class="st11 st4 st12">this time period)</text>
+	<text transform="matrix(1 0 0 1 115.6659 436.7356)" class="st1 st13">Time</text>
+</g>
+<g id="APP_1_Rectangle">
+	<rect x="346.5" y="1712.2" class="st10" width="633" height="225"/>
+</g>
+<g id="APP_2_Rectangle">
+	<rect x="2201.6" y="1712.2" class="st10" width="633" height="225"/>
+</g>
+<g id="Arrow_time">
+	<g>
+		<g>
+			<line class="st14" x1="418" y1="406" x2="3224.3" y2="406"/>
+			<g>
+				<polygon class="st15" points="3197.8,438.7 3192.3,432.9 3221.2,406 3192.3,379.1 3197.8,373.3 3233,406 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Circle_Red">
+	<circle class="st16" cx="1490" cy="646.5" r="89"/>
+	<circle class="st16" cx="2377.5" cy="1031.6" r="89"/>
+	<circle class="st16" cx="806.3" cy="1031.6" r="89"/>
+	<circle class="st16" cx="2081.7" cy="1416.1" r="89"/>
+	<circle class="st16" cx="629.1" cy="1416.1" r="89"/>
+</g>
+<g id="Circle_Green">
+	<circle class="st17" cx="1156.2" cy="1416.1" r="89"/>
+	<circle class="st17" cx="1245.4" cy="1031.6" r="89"/>
+	<circle class="st17" cx="1875.6" cy="646.5" r="89"/>
+	<circle class="st17" cx="2600.8" cy="1416.1" r="89"/>
+</g>
+<g id="Cricle_Blue">
+	<circle class="st18" cx="354.7" cy="1416.1" r="89"/>
+	<circle class="st18" cx="892.8" cy="1416.1" r="89"/>
+	<circle class="st18" cx="1419.8" cy="1416.1" r="89"/>
+	<circle class="st18" cx="1814.8" cy="1416.1" r="89"/>
+	<circle class="st18" cx="2342.8" cy="1416.1" r="89"/>
+	<circle class="st18" cx="2872.5" cy="1416.1" r="89"/>
+</g>
+<g id="rectangle_S1">
+	<rect x="57" y="913" class="st10" width="3192" height="225"/>
+</g>
+<g id="rectangle_P">
+	<rect x="57" y="1301" class="st10" width="3192" height="225"/>
+</g>
+<g id="Layer_2">
+	<g>
+		<g>
+			<line class="st16" x1="627.5" y1="1516.2" x2="628.9" y2="1712"/>
+			<g>
+				<polygon class="st6" points="595,1542.9 600.9,1548.4 627.5,1519.3 654.6,1548 660.4,1542.5 627.4,1507.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy">
+	<g>
+		<g>
+			<line class="st16" x1="1989.3" y1="1456.6" x2="979.4" y2="1841.5"/>
+			<g>
+				<polygon class="st6" points="1952.8,1435.4 1949.8,1442.8 1986.4,1457.6 1969,1493 1976.1,1496.6 1997.4,1453.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_2">
+	<g>
+		<g>
+			<line class="st16" x1="752.6" y1="1116.5" x2="631.9" y2="1326.5"/>
+			<g>
+				<polygon class="st6" points="711,1123.2 713.3,1130.8 751,1119.2 759.9,1157.6 767.7,1155.8 756.9,1109 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_13">
+	<g>
+		<g>
+			<line class="st16" x1="949.6" y1="1703.4" x2="956.1" y2="1695.8"/>
+			<line class="st19" x1="965.6" y1="1684.7" x2="1116.4" y2="1508.5"/>
+			<line class="st16" x1="1121.2" y1="1502.9" x2="1127.7" y2="1495.3"/>
+			<g>
+				<polygon class="st6" points="991.7,1704.6 990.7,1696.6 951.6,1701.1 949.9,1661.7 941.9,1662 943.9,1710 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_15">
+	<g>
+		<g>
+			<line class="st16" x1="1099.7" y1="1331.5" x2="1091.9" y2="1325.2"/>
+			<line class="st20" x1="1080.6" y1="1315.9" x2="847.8" y2="1125.9"/>
+			<line class="st16" x1="842.1" y1="1121.3" x2="834.4" y2="1115"/>
+			<g>
+				<polygon class="st6" points="1099.8,1289.4 1091.9,1290.5 1097.3,1329.5 1057.9,1332.1 1058.4,1340.1 1106.4,1337 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_16">
+	<g>
+		<g>
+			<line class="st16" x1="1744" y1="944" x2="1736.4" y2="937.5"/>
+			<line class="st21" x1="1724.6" y1="927.5" x2="1511.5" y2="746.5"/>
+			<line class="st16" x1="1505.6" y1="741.5" x2="1498" y2="735"/>
+			<g>
+				<polygon class="st6" points="1745,901.9 1737,902.8 1741.7,942 1702.3,943.7 1702.6,951.7 1750.6,949.6 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_17">
+	<g>
+		<g>
+			<line class="st16" x1="1943.3" y1="1333.7" x2="1943.5" y2="1324.9"/>
+			<line class="st22" x1="1943.6" y1="1312.7" x2="1946.1" y2="1117.9"/>
+			<line class="st16" x1="1946.2" y1="1111.7" x2="1946.3" y2="1102.9"/>
+			<g>
+				<polygon class="st6" points="1972,1309.4 1967,1304.9 1943.3,1331 1920.3,1306.3 1915.2,1311.3 1943.2,1341.4 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_18">
+	<g>
+		<g>
+			<line class="st16" x1="2563.4" y1="1322.4" x2="2557.6" y2="1314.3"/>
+			<line class="st23" x1="2548.3" y1="1301.2" x2="2423.3" y2="1125.2"/>
+			<line class="st16" x1="2418.7" y1="1118.6" x2="2412.9" y2="1110.5"/>
+			<g>
+				<polygon class="st6" points="2574.7,1281.9 2566.7,1280.8 2561.6,1319.9 2523,1311.9 2521.3,1319.7 2568.4,1329.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_14">
+</g>
+<g id="Layer_2_copy_3">
+	<g>
+		<g>
+			<line class="st16" x1="1395.1" y1="678.5" x2="800.9" y2="942.5"/>
+			<g>
+				<polygon class="st6" points="1357.6,659.4 1355,667 1392.3,679.8 1376.8,716 1384.1,719.2 1403,675 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_4">
+	<g>
+		<g>
+			<line class="st16" x1="2318.8" y1="1115.2" x2="2076.9" y2="1326.5"/>
+			<g>
+				<polygon class="st6" points="2277.4,1108 2277.1,1116 2316.5,1117.2 2312.4,1156.4 2320.4,1157.3 2325.4,1109.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_5">
+	<g>
+		<g>
+			<line class="st18" x1="2191.9" y1="1906.1" x2="363.4" y2="1504"/>
+			<g>
+				<polygon class="st3" points="2173.1,1868.5 2166.5,1873 2188.9,1905.5 2154.9,1925.5 2159,1932.4 2200.4,1908 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_6">
+	<g>
+		<g>
+			<line class="st18" x1="2192.5" y1="1836.3" x2="893.9" y2="1505"/>
+			<g>
+				<polygon class="st3" points="2174.9,1798.1 2168.2,1802.4 2189.5,1835.6 2154.9,1854.5 2158.7,1861.5 2200.9,1838.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_7">
+	<g>
+		<g>
+			<line class="st18" x1="2193.2" y1="1769.6" x2="1420.8" y2="1504.8"/>
+			<g>
+				<polygon class="st3" points="2178.7,1730.1 2171.6,1733.9 2190.3,1768.6 2154.2,1784.7 2157.5,1792 2201.4,1772.5 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_8">
+	<g>
+		<g>
+			<line class="st18" x1="2254.8" y1="1703.2" x2="1818.4" y2="1504.5"/>
+			<g>
+				<polygon class="st3" points="2244.3,1662.5 2236.9,1665.5 2252,1702 2214.6,1714.4 2217.1,1722 2262.7,1706.8 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_9">
+	<g>
+		<g>
+			<line class="st18" x1="2339.9" y1="1702.3" x2="2339.4" y2="1504.5"/>
+			<g>
+				<polygon class="st3" points="2372.5,1675.7 2366.6,1670.3 2339.9,1699.2 2312.9,1670.4 2307.1,1675.9 2339.9,1711 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_10">
+	<g>
+		<g>
+			<line class="st18" x1="2724" y1="1704.6" x2="2852.6" y2="1500.4"/>
+			<g>
+				<polygon class="st3" points="2765.8,1699.6 2763.8,1691.9 2725.7,1702 2718.3,1663.3 2710.5,1664.8 2719.4,1712 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_11">
+	<g>
+		<g>
+			<line class="st17" x1="1220.9" y1="1127.3" x2="1163.5" y2="1324.4"/>
+			<g>
+				<polygon class="st8" points="1182.1,1143.6 1186.2,1150.5 1220.1,1130.3 1237.8,1165.5 1244.9,1161.9 1223.4,1119 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2_copy_12">
+	<g>
+		<g>
+			<path class="st24" d="M1783.2,683.8c-180.8,86.7-356.6,171.5-537.8,258.9"/>
+			<g>
+				<polygon class="st8" points="1745.1,665.8 1742.7,673.4 1780.4,685.1 1766,721.8 1773.5,724.7 1791,680 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st16" x1="2541.3" y1="1482.3" x2="2533.4" y2="1483.8"/>
+		<line class="st25" x1="2517.6" y1="1486.8" x2="1006.1" y2="1778.3"/>
+		<line class="st16" x1="998.2" y1="1779.8" x2="990.3" y2="1781.4"/>
+		<g>
+			<polygon class="st6" points="1010.2,1744.2 1016.6,1748.9 993.3,1780.8 1026.8,1801.7 1022.5,1808.5 981.8,1783 			"/>
+		</g>
+	</g>
+</g>
+</svg>
