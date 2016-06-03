@@ -2,7 +2,7 @@
 MongoDB Driver Documentation Assets
 ===================================
 
-The ``restaurants.json`` dataset contains 10 documents of the form:
+The `restaurants.json <https://github.com/mongodb/docs-assets/blob/drivers/restaurants.json>`_ dataset contains 10 documents of the form:
 
 .. code-block:: none
 
@@ -24,7 +24,7 @@ Import DataSet
 
 **Note:** The MongoDB deployment to which you wish to import the data must be running.
 
-#. Download and save the dataset.
+#. Download and save the `restaurants.json <https://github.com/mongodb/docs-assets/blob/drivers/restaurants.json>`_ dataset.
 
 #. In the terminal shell or command prompt, use ``mongoimport`` (or
    ``mongoimport.exe`` on Windows) to insert the documents. For example,
