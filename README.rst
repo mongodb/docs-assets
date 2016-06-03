@@ -22,9 +22,7 @@ The ``restaurants.json`` dataset contains 10 documents of the form:
 Import DataSet
 --------------
 
-.. note::
-   The MongoDB deployment to which you wish to import the data must be
-   running.
+**Note:** The MongoDB deployment to which you wish to import the data must be running.
 
 #. Download and save the dataset.
 
@@ -37,9 +35,7 @@ Import DataSet
 
       mongoimport --db test --collection restaurants --drop --file <path to saved file>
 
-   .. note:: 
-      If ``mongoimport`` is not in your path, either update the path or
-      specify the full path to the executable.
+   **Note:** If ``mongoimport`` is not in your path, either update the path or specify the full path to the executable.
    
    To import to a MongoDB deployment running on a different host or
    port, specify ``--host`` and ``--port`` options in your `mongoimport`
