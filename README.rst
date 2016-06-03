@@ -4,7 +4,7 @@ MongoDB Driver Documentation Assets
 
 The ``restaurants.json`` dataset contains 10 documents of the form:
 
-.. code-block:: json
+.. code-block:: none
 
    {
      "_id" : <ObjectId>,
@@ -23,7 +23,6 @@ Import DataSet
 --------------
 
 .. note::
-
    The MongoDB deployment to which you wish to import the data must be
    running.
 
@@ -39,7 +38,6 @@ Import DataSet
       mongoimport --db test --collection restaurants --drop --file <path to saved file>
 
    .. note:: 
-
       If ``mongoimport`` is not in your path, either update the path or
       specify the full path to the executable.
    
