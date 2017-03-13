@@ -15,7 +15,7 @@
 
 // 0. Insert documents into collection for delete examples
 //
-// db.inventory.insert( [
+// db.inventory.insertMany( [
 //   { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
 //   { item: "notebook", qty: 50, size: { h: 8.5, w: 11, uom: "in" }, status: "P" },
 //   { item: "paper", qty: 100, size: { h: 8.5, w: 11, uom: "in" }, status: "D" },
@@ -38,12 +38,6 @@
 
 
 
-// 2. Remove all
-//
-// db.inventory.remove({})
-
-
-
 
 
 
@@ -56,18 +50,12 @@
 
 
 
-// 4. Remove all that match a condition
-//
-// db.inventory.remove( { status : "P" } )
-
-
-
 
 
 
 // 5. Remove a single document only
 //
-// db.inventory.remove({ status: "D" }, 1)
+// db.inventory.deleteOne({ status: "D" } )
 //
 
 

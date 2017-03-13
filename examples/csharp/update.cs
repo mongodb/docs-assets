@@ -14,7 +14,7 @@
 //
 
 // 0. Insert documents to update in the examples
-// db.inventory.insert( [
+// db.inventory.insertMany( [
 //     { item: "canvas", qty: 100, size: { h: 28, w: 35.5, uom: "cm" }, status: "A" },
 //     { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
 //     { item: "mat", qty: 85, size: { h: 27.9, w: 35.5, uom: "cm" }, status: "A" },
@@ -63,35 +63,6 @@
 
 
 
-// 3. Update (single)
-//
-// db.inventory.update(
-//     { "status": "P" } ,
-//     {
-//         $set: { status: "D" },
-//         $currentDate: { lastModified: true }
-//     }
-// )
-
-
-
-
-
-
-
-
-// 4. Update (multi)
-//
-// db.inventory.update(
-//    { "status": "P" },
-//    {
-//      $set: { status: "D" },
-//      $currentDate: { lastModified: true }
-//    },
-//    { multi: true }
-// )
-
-
 
 
 
@@ -101,18 +72,6 @@
 // db.inventory.replaceOne(
 //     { item: "paper" },
 //     { item: "paper", instock: [ { warehouse: "A", qty: 60 }, { warehouse: "B", qty: 40 } ] }
-// )
-
-
-
-
-
-
-
-// 6. Replace via update
-// db.inventory.update(
-//     { item: "postcard" },
-//     { item: "postcard", instock: [ { warehouse: "B", qty: 15 }, { warehouse: "C", qty: 35 } ] }
 // )
 
 

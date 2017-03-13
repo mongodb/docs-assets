@@ -16,7 +16,7 @@
 
 // 0. Insert documents that we'll query
 //
-// db.inventory.insert( [
+// db.inventory.insertMany( [
 //    { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
 //    { item: "notebook", qty: 50, size: { h: 8.5, w: 11, uom: "in" }, status: "A" },
 //    { item: "paper", qty: 100, size: { h: 8.5, w: 11, uom: "in" }, status: "D" },

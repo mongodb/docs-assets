@@ -16,7 +16,7 @@
 
 // 0. Insert documents that we'll query
 //
-//   db.inventory.insert([
+//   db.inventory.insertMany([
 //       { item: "journal", qty: 25, tags: ["blank", "red"], dim_cm: [ 14, 21 ] },
 //       { item: "notebook", qty: 50, tags: ["red", "blank"], dim_cm: [ 14, 21 ] },
 //       { item: "paper", qty: 100, tags: ["red", "blank", "plain"], dim_cm: [ 14, 21 ] },

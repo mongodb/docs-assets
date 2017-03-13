@@ -15,7 +15,7 @@
 
 # 0. Insert documents that we'll query
 #
-#   db.inventory.insert([
+#   db.inventory.insertMany([
 #      { _id: 1, item: null },
 #      { _id: 2 }
 #   ])
