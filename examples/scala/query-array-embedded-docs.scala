@@ -1,7 +1,6 @@
 // Tabbed Examples: Staged POC (the examples differ because we just needed something)
 // https://docs-mongodbcom-staging.corp.mongodb.com/jdestefano/DOCSP-364/tutorial/insert-one.html
 
-
 // **Action Requested**
 //
 // Please provide equivalent examples in your driver language.
@@ -14,7 +13,7 @@
 //
 
 
-// 0. Insert documents that we'll query
+// 29. Insert documents that we'll query
 //
 //  db.inventory.insertMany( [
 //    { item: "journal", instock: [ { warehouse: "A", qty: 5 }, { warehouse: "C", qty: 15 } ] },
@@ -30,7 +29,7 @@
 
 
 
-// 1A. Query for a document in an array
+// 30. Query for a document in an array
 //
 // db.inventory.find( { "instock": { warehouse: "A", qty: 5 } } )
 //
@@ -42,7 +41,7 @@
 
 
 
-// 1B. Order matters, so this won't find anything
+// 31. Order matters, so this won't find anything
 //
 //    db.inventory.find( { "instock": { qty: 5, warehouse: "A" } } )
 //
@@ -54,7 +53,7 @@
 
 
 
-// 2. Query with array index
+// 32. Query with array index
 //
 //    db.inventory.find( { 'instock.0.qty': { $lte: 20 } } )
 
@@ -62,7 +61,7 @@
 
 
 
-// 3. Use operator to find element
+// 33. Use operator to find element
 //
 //    db.inventory.find( { 'instock.qty': { $lte: 20 } } )
 
@@ -72,7 +71,7 @@
 
 
 
-// 4. $elemMatch 1
+// 34. $elemMatch 1
 //
 //   db.inventory.find( { "instock": { $elemMatch: { qty: 5, warehouse: "A" } } } )
 
@@ -82,7 +81,7 @@
 
 
 
-// 5. $elemMatch 2
+// 35. $elemMatch 2
 //
 //    db.inventory.find( { "instock": { $elemMatch: { qty: { $gt: 10, $lte: 20 } } } } )
 //
@@ -94,7 +93,7 @@
 
 
 
-// 6A. Compound but not elemMatch
+// 36. Compound but not elemMatch
 //
 //    db.inventory.find( { "instock.qty": { $gt: 10,  $lte: 20 } } )
 //
@@ -105,7 +104,7 @@
 
 
 
-// 6B. Compound but not elemMatch
+// 37. Compound but not elemMatch
 //
 //    db.inventory.find( { "instock.qty": 5, "instock.warehouse": "A" } )
 //

@@ -1,7 +1,6 @@
 // Tabbed Examples: Staged POC (the examples differ because we just needed something)
 // https://docs-mongodbcom-staging.corp.mongodb.com/jdestefano/DOCSP-364/tutorial/insert-one.html
 
-
 // **Action Requested**
 //
 // Please provide equivalent examples in your driver language.
@@ -14,7 +13,7 @@
 //
 
 
-// 0. Insert documents that we'll query
+// 20. Insert documents that we'll query
 //
 //   db.inventory.insertMany([
 //       { item: "journal", qty: 25, tags: ["blank", "red"], dim_cm: [ 14, 21 ] },
@@ -30,7 +29,7 @@
 
 
 
-// 1A. Match an array
+// 21. Match an array
 //
 // db.inventory.find( { tags: ["red", "blank"] } )
 //
@@ -42,7 +41,7 @@
 
 
 
-// 1B. Find array that contains, among other things and regardless of order, specified elements
+// 22. Find array that contains, among other things and regardless of order, specified elements
 //
 //    db.inventory.find( { tags: { $all: ["red", "blank"] } } )
 //
@@ -54,7 +53,7 @@
 
 
 
-// 2. Query for an element
+// 23. Query for an element
 //
 //    db.inventory.find( { tags: "red" } )
 
@@ -62,7 +61,7 @@
 
 
 
-// 3. Use operator to find element
+// 24. Use operator to find element
 //
 //    db.inventory.find( { dim_cm: { $gt: 25 } } )
 
@@ -72,7 +71,7 @@
 
 
 
-// 4. compound conditions
+// 25. compound conditions
 //
 //   db.inventory.find( { dim_cm: { $gt: 15, $lt: 20 } } )
 
@@ -82,7 +81,7 @@
 
 
 
-// 5. $elemMatch
+// 26. $elemMatch
 //
 //    db.inventory.find( { dim_cm: { $elemMatch: { $gt: 22, $lt: 30 } } } )
 //
@@ -94,7 +93,7 @@
 
 
 
-// 6. By array index
+// 27. By array index
 //
 //     db.inventory.find( { "dim_cm.1": { $gt: 25 } } )
 //
@@ -105,7 +104,7 @@
 
 
 
-// 6. By array length
+// 28. By array length
 //
 //    db.inventory.find( { "tags": { $size: 3 } } )
 //

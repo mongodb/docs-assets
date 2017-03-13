@@ -1,6 +1,7 @@
 // Tabbed Examples: Staged POC (the examples differ because we just needed something)
 // https://docs-mongodbcom-staging.corp.mongodb.com/jdestefano/DOCSP-364/tutorial/insert-one.html
 
+
 // **Action Requested**
 //
 // Please provide equivalent examples in your driver language.
@@ -13,7 +14,7 @@
 //
 
 
-// 0. Insert documents to update in the examples
+// 51. Insert documents to update in the examples
 // db.inventory.insertMany( [
 //     { item: "canvas", qty: 100, size: { h: 28, w: 35.5, uom: "cm" }, status: "A" },
 //     { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
@@ -34,7 +35,7 @@
 
 
 
-// 1. Update One
+// 52. Update One
 // db.inventory.updateOne(
 //     { item: "paper" },
 //     {
@@ -48,7 +49,7 @@
 
 
 
-// 2. Update Many
+// 53. Update Many
 // db.inventory.updateMany(
 //     { "qty": { $lt: 50 } },
 //     {
@@ -60,7 +61,10 @@
 
 
 
-// 5. Replace
+
+
+
+// 54. Replace
 // db.inventory.replaceOne(
 //     { item: "paper" },
 //     { item: "paper", instock: [ { warehouse: "A", qty: 60 }, { warehouse: "B", qty: 40 } ] }

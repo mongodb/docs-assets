@@ -1,7 +1,6 @@
 // Tabbed Examples: Staged POC (the examples differ because we just needed something)
 // https://docs-mongodbcom-staging.corp.mongodb.com/jdestefano/DOCSP-364/tutorial/insert-one.html
 
-
 // **Action Requested**
 //
 // Please provide equivalent examples in your driver language.
@@ -13,7 +12,8 @@
 // - Include any additional comments that would be relevant for people using the driver for that example
 //
 
-// 0. Insert documents that we'll query
+
+// 14
 //
 // db.inventory.insertMany( [
 //    { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
@@ -29,7 +29,7 @@
 
 
 
-// 1. Equality match on embedded document
+// 15
 //
 // db.inventory.find( { size: { h: 14, w: 21, uom: "cm" } } )
 //
@@ -37,7 +37,7 @@
 
 
 
-// 1B.  Contrast: with query where order of field differs
+// 16
 // This equality match does not match any of the above documents
 //
 //
@@ -46,7 +46,7 @@
 
 
 
-// 2. Equality condition on a field in an embedded document
+// 17
 //
 //    db.inventory.find( { "size.uom": "in" } )
 //
@@ -56,7 +56,7 @@
 
 
 
-// 3. Query operator on a field in an embedded document
+// 18
 //
 //    db.inventory.find( { "size.h": { $lt: 15 } } )
 
@@ -65,7 +65,7 @@
 
 
 
-// 4. Compound conditions
+// 19. Compound conditions
 //
 // db.inventory.find( { "size.h": { $lt: 15 }, "size.uom": "in", status: "D" } )
 

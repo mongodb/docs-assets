@@ -12,8 +12,9 @@
 # - Include any additional comments that would be relevant for people using the driver for that example
 #
 
-# 0. Insert documents into collection for delete examples
-#
+
+# 55. Insert documents into collection for delete examples
+# 
 # db.inventory.insertMany( [
 #   { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
 #   { item: "notebook", qty: 50, size: { h: 8.5, w: 11, uom: "in" }, status: "P" },
@@ -27,7 +28,7 @@
 
 
 
-# 1. Delete all
+# 56. Delete all
 #
 # db.inventory.deleteMany({})
 
@@ -40,7 +41,7 @@
 
 
 
-# 3. Delete all that match a condition
+# 57. Delete all that match a condition
 #
 # db.inventory.deleteMany({ status : "A" })
 
@@ -51,11 +52,11 @@
 
 
 
-# 5. Remove a single document only
-#
-# db.inventory.deleteOne({ status: "D" })
-#
 
+# 58. Remove a single document only
+#
+# db.inventory.deleteOne({ status: "D" } )
+#
 
 
 
