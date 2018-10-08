@@ -1,0 +1,6 @@
+{"_id":1.0,"date":{"$date":"2018-02-08T09:00:00.000Z"},"items":[{"fruit":"kiwi","quantity":2.0,"price":0.5},{"fruit":"apple","quantity":1.0,"price":1.0}]}
+{"_id":2.0,"date":{"$date":"2018-01-09T07:12:00.000Z"},"items":[{"fruit":"banana","quantity":8.0,"price":1.0},{"fruit":"apple","quantity":1.0,"price":1.0},{"fruit":"papaya","quantity":1.0,"price":4.0}]}
+{"_id":3.0,"date":{"$date":"2018-01-27T09:13:00.000Z"},"items":[{"fruit":"banana","quantity":1.0,"price":1.0}]}
+{"_id":4.0,"date":{"$date":"2018-02-03T07:58:00.000Z"},"items":[{"fruit":"banana","quantity":1.0,"price":1.0}]}
+{"_id":5.0,"date":{"$date":"2018-02-05T06:03:00.000Z"},"items":[{"fruit":"banana","quantity":1.0,"price":1.0},{"fruit":"mango","quantity":2.0,"price":2.0},{"fruit":"apple","quantity":1.0,"price":1.0}]}
+{"_id":6.0,"date":{"$date":"2018-01-11T07:15:00.000Z"},"items":[{"fruit":"banana","quantity":8.0,"price":1.0},{"fruit":"apple","quantity":1.0,"price":1.0},{"fruit":"papaya","quantity":3.0,"price":4.0}]}
