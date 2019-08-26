@@ -1,74 +1,52 @@
 {
-    "bsonType": "object",
-    "properties": {
-      "insurance": {
-        "bsonType": "object",
-        "properties": {
-          "provider": {
-            "bsonType": "string",
-            "description": "must be a string and is required"
-          },
-          "policyNumber": {
-            "encrypt": {
-              "bsonType": "int",
-              "keyId": [
-                {
-                  "$binary": {
-                    "base64": "<insert_your_key_here>",
-                    "subType": "04"
-                  }
-                }
-              ],
-              "algorithm": "AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic"
-            }
+  "bsonType": "object",
+  "encryptMetadata": {
+    "keyId": [
+      {
+        "$binary": {
+          "base64": "<paste_your_key_id_here>",
+          "subType": "04"
+        }
+      }
+    ]
+  },
+  "properties": {
+    "insurance": {
+      "bsonType": "object",
+      "properties": {
+        "provider": {
+          "bsonType": "string",
+          "description": "must be a string and is required"
+        },
+        "policyNumber": {
+          "encrypt": {
+            "bsonType": "int",
+            "algorithm": "AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic"
           }
         }
-      },
-      "medicalRecords": {
-        "encrypt": {
-          "bsonType": "array",
-          "keyId": [
-            {
-              "$binary": {
-                "base64": "<insert_your_key_here>",
-                "subType": "04"
-              }
-            }
-          ],
-          "algorithm": "AEAD_AES_256_CBC_HMAC_SHA_512-Random"
-        }
-      },
-      "name": {
-        "bsonType": "string",
-        "description": "must be a string and is required"
-      },
-      "bloodType": {
-        "encrypt": {
-          "bsonType": "string",
-          "keyId": [
-            {
-              "$binary": {
-                "base64": "<insert_your_key_here>",
-                "subType": "04"
-              }
-            }
-          ],
-          "algorithm": "AEAD_AES_256_CBC_HMAC_SHA_512-Random"
-        }
-      },
-      "ssn": {
-        "encrypt": {
-          "bsonType": "int",
-          "keyId": [
-            {
-              "$binary": {
-                "base64": "<insert_your_key_here>",
-                "subType": "04"
-              }
-            }
-          ],
-          "algorithm": "AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic"
-        }
+      }
+    },
+    "medicalRecords": {
+      "encrypt": {
+        "bsonType": "array",
+        "algorithm": "AEAD_AES_256_CBC_HMAC_SHA_512-Random"
+      }
+    },
+    "name": {
+      "bsonType": "string",
+      "description": "must be a string and is required"
+    },
+    "bloodType": {
+      "encrypt": {
+        "bsonType": "int",
+        "algorithm": "AEAD_AES_256_CBC_HMAC_SHA_512-Random"
+      }
+    },
+    "ssn": {
+      "encrypt": {
+        "bsonType": "int",
+        "algorithm": "AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic"
       }
     }
   }
+}
