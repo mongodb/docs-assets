@@ -1,7 +1,7 @@
 package com.example.fle;
 import org.json.*;
 
-public class HelperCode {
+public class FieldLevelEncryptionJSONSchema {
     public static void main(String[] args) {
         System.out.println(getJSONSchema("<paste_your_key_id_here>"));
     }
