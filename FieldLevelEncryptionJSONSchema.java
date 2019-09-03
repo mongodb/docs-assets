@@ -33,7 +33,7 @@ public class FieldLevelEncryptionJSONSchema {
         meta.put("keyId", new JSONArray().put(binWrapper));
         return meta;
     }
-    public static String getJSONSchema(String keyId){
+    public static String createJSONSchema(String keyId){
         JSONObject properties = new JSONObject();
         properties.put("name", getStandardField("string"));
         properties.put("ssn", getEncryptedField(keyId, "int", true)); // determin
