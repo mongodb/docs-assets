@@ -3,7 +3,7 @@ import org.json.*;
 
 public class FieldLevelEncryptionJSONSchema {
     public static void main(String[] args) {
-        System.out.println(getJSONSchema("<paste_your_key_id_here>"));
+        System.out.println(getJSONSchema("<paste_your_key_id_here>")); // replace the "paste_your_key_id_here" with your data key id
     }
     public static JSONObject getEncryptedField(String keyId, String chosenBsonType, Boolean isDeterministic){
 		JSONObject encryptedFieldWrap = new JSONObject();
