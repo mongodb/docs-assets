@@ -14,10 +14,6 @@
     "insurance": {
       "bsonType": "object",
       "properties": {
-        "provider": {
-          "bsonType": "string",
-          "description": "must be a string and is required"
-        },
         "policyNumber": {
           "encrypt": {
             "bsonType": "int",
