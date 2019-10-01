@@ -57,9 +57,9 @@ public class DataEncryptionKeyGenerator {
 
         ClientEncryption clientEncryption = ClientEncryptions.create(clientEncryptionSettings);
         BsonBinary dataKeyId = clientEncryption.createDataKey(kmsProvider, new DataKeyOptions());
-        System.out.println("uuidDataKeyId:" + dataKeyId.asUuid());
+        System.out.println("DataKeyId [UUID]: " + dataKeyId.asUuid());
 
         final String base64DataKeyId = Base64.getEncoder().encodeToString(dataKeyId.getData());
-        System.out.println("base64DataKeyId:" + base64DataKeyId);
+        System.out.println("DataKeyId [base64]: " + base64DataKeyId);
     }
 }
