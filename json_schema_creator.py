@@ -43,4 +43,6 @@ def json_schema_creator(keyId):
         }
     }
 
-print("<paste_your_data_key_id>"); # replace the "paste_your_data_key_id" with your data key id
+
+print(json_schema_creator("<paste_your_data_key_id>")); # replace the "paste_your_data_key_id" with your data key id
+
