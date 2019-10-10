@@ -1,45 +1,49 @@
-const mongodb = require('mongodb');
 const fs = require('fs');
+const base64 = require('uuid-base64');
+const mongodb = require('mongodb');
 const { ClientEncryption } = require('mongodb-client-encryption')(mongodb);
-const { MongoClient } = mongodb;
-const dotenv = require('dotenv');
-dotenv.config();
 
-const keyVaultNamespace = "encryption.__keyVault";
+const { MongoClient } = mongodb;
+
+const connectionString = 'mongodb://localhost:27017';
+const keyVaultNamespace = 'encryption.__keyVault';
+const path = './master-key.txt';
+
 let kmsProviders;
 
-// READ DATA FROM Master Key
-const path = "./master-key.txt";
 fs.readFile(path, (err, data) => {
   if (err) throw err;
   kmsProviders = {
     local: {
-      key: data
-    }
-  }
+      key: data,
+    },
+  };
 });
 
-function DataEncryptionKeyGenerator(){
-    const client = new MongoClient(process.env.MONGO_URL, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    });
+function DataEncryptionKeyGenerator() {
+  const client = new MongoClient(connectionString, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
 
-    client.connect()
-    .then((clientConnection)=>{
-        const encryption = new ClientEncryption(client, {
-            keyVaultNamespace,
-            kmsProviders
-        });
+  client.connect()
+    .then(() => {
+      const encryption = new ClientEncryption(client, {
+        keyVaultNamespace,
+        kmsProviders,
+      });
 
-        encryption.createDataKey('local', (err, key) => {
-            if (err) {
-              console.log("dataKey creation error: \t", err);
-            } else {
-              // key creation succeeded
-              console.log("dataKey created: \t", key)
-            }
-        })
+      encryption.createDataKey('local', (err, key) => {
+        if (err) {
+          console.error(err);
+        } else {
+          const base64DataKeyId = key.toString('base64');
+          const uuidDataKeyId = base64.decode(base64DataKeyId);
+          console.log('DataKeyId [UUID]: ', uuidDataKeyId);
+          console.log('DataKeyId [base64]: ', base64DataKeyId);
+        }
+      });
     });
 }
+
 DataEncryptionKeyGenerator();

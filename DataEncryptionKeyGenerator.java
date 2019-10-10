@@ -23,30 +23,29 @@ public class DataEncryptionKeyGenerator {
 
     public static void main(final String[] args) {
 
-    	String path = "master-key.txt";
-    	
-        // This would have to be the same master key as was used to create the encryption key
-		byte[] fileBytes = new byte[96];
-		
-		try (FileInputStream fis = new FileInputStream(path)) {
-			fileBytes = fis.readAllBytes();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		
-		final byte[] localMasterKey = Arrays.copyOf(fileBytes, 96); 
-		
-		String kmsProvider = "local";
-		
+        String path = "master-key.txt";
+
+        byte[] fileBytes = new byte[96];
+
+        try (FileInputStream fis = new FileInputStream(path)) {
+          fileBytes = fis.readAllBytes();
+        } catch (IOException e) {
+          e.printStackTrace();
+        }
+
+        final byte[] localMasterKey = Arrays.copyOf(fileBytes, 96);
+
+        String kmsProvider = "local";
+
         Map<String, Map<String, Object>> kmsProviders = new HashMap<String, Map<String, Object>>() {{
            put(kmsProvider, new HashMap<String, Object>() {{
                put("key", localMasterKey);
            }});
         }};
-		
+
         String connectionString = "mongodb://localhost:27017";
         String keyVaultNamespace = "encryption.__keyVault";
-        
+
         ClientEncryptionSettings clientEncryptionSettings = ClientEncryptionSettings.builder()
                 .keyVaultMongoClientSettings(MongoClientSettings.builder()
                         .applyConnectionString(new ConnectionString(connectionString))
