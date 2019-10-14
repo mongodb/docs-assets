@@ -1,8 +1,8 @@
-def json_schema_creator(keyId):
+def json_schema_creator(key_id):
     return {
         'bsonType': 'object',
         'encryptMetadata': {
-            'keyId': keyId
+            'keyId': key_id
         },
         'properties': {
         'insurance': {
