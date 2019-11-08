@@ -11,39 +11,36 @@ const path = './master-key.txt';
 
 let kmsProviders;
 
-fs.readFile(path, (err, data) => {
-  if (err) throw err;
+try {
+  const data = fs.readFileSync(path);
   kmsProviders = {
     local: {
       key: data,
     },
   };
-});
-
-function DataEncryptionKeyGenerator() {
-  const client = new MongoClient(connectionString, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
-
-  client.connect()
-    .then(() => {
-      const encryption = new ClientEncryption(client, {
-        keyVaultNamespace,
-        kmsProviders,
-      });
-
-      encryption.createDataKey('local', (err, key) => {
-        if (err) {
-          console.error(err);
-        } else {
-          const base64DataKeyId = key.toString('base64');
-          const uuidDataKeyId = base64.decode(base64DataKeyId);
-          console.log('DataKeyId [UUID]: ', uuidDataKeyId);
-          console.log('DataKeyId [base64]: ', base64DataKeyId);
-        }
-      });
-    });
+} catch(err) {
+  console.error(err);
 }
 
+const client = new MongoClient(connectionString, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+async function DataEncryptionKeyGenerator() {
+  try {
+    await client.connect();
+    const encryption = new ClientEncryption(client, {
+      keyVaultNamespace,
+      kmsProviders,
+    });
+    const key = encryption.createDataKey('local');
+    const base64DataKeyId = key.toString('base64');
+    const uuidDataKeyId = base64.decode(base64DataKeyId);
+    console.log('DataKeyId [UUID]: ', uuidDataKeyId);
+    console.log('DataKeyId [base64]: ', base64DataKeyId);
+  } finally {
+    await client.close();
+  }
+}
 DataEncryptionKeyGenerator();
