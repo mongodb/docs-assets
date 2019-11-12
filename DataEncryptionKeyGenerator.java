@@ -35,13 +35,11 @@ public class DataEncryptionKeyGenerator {
 
         String kmsProvider = "local";
 
-        Map<String, Object> keyMap = new HashMap<String, Object>() {{
-            put("key", localMasterKey);
-        }};
+        Map<String, Object> keyMap = new HashMap<String, Object>();
+        keyMap.put("key",  localMasterKey);
 
-        Map<String, Map<String, Object>> kmsProviders = new HashMap<String, Map<String, Object>>() {{
-            put(kmsProvider, keyMap);
-        }};
+        Map<String, Map<String, Object>> kmsProviders = new HashMap<String, Map<String, Object>>();
+        kmsProviders.put(kmsProvider, keyMap);
 
         String connectionString = "mongodb://localhost:27017";
         String keyVaultNamespace = "encryption.__keyVault";
