@@ -21,26 +21,26 @@ import com.mongodb.client.vault.ClientEncryptions;
  */
 public class DataEncryptionKeyGenerator {
 
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
 
         String path = "master-key.txt";
 
-        byte[] fileBytes = new byte[96];
+        byte[] localMasterKey = new byte[96];
 
         try (FileInputStream fis = new FileInputStream(path)) {
-          fileBytes = fis.readAllBytes();
-        } catch (IOException e) {
-          e.printStackTrace();
+            fis.readNBytes(localMasterKey, 0, 96);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-
-        final byte[] localMasterKey = Arrays.copyOf(fileBytes, 96);
 
         String kmsProvider = "local";
 
+        Map<String, Object> keyMap = new HashMap<String, Object>() {{
+            put("key", localMasterKey);
+        }};
+
         Map<String, Map<String, Object>> kmsProviders = new HashMap<String, Map<String, Object>>() {{
-           put(kmsProvider, new HashMap<String, Object>() {{
-               put("key", localMasterKey);
-           }});
+            put(kmsProvider, keyMap);
         }};
 
         String connectionString = "mongodb://localhost:27017";
@@ -58,7 +58,7 @@ public class DataEncryptionKeyGenerator {
         BsonBinary dataKeyId = clientEncryption.createDataKey(kmsProvider, new DataKeyOptions());
         System.out.println("DataKeyId [UUID]: " + dataKeyId.asUuid());
 
-        final String base64DataKeyId = Base64.getEncoder().encodeToString(dataKeyId.getData());
+        String base64DataKeyId = Base64.getEncoder().encodeToString(dataKeyId.getData());
         System.out.println("DataKeyId [base64]: " + base64DataKeyId);
     }
 }
