@@ -34,7 +34,7 @@ async function DataEncryptionKeyGenerator() {
       keyVaultNamespace,
       kmsProviders,
     });
-    const key = encryption.createDataKey('local');
+    const key = await encryption.createDataKey('local');
     const base64DataKeyId = key.toString('base64');
     const uuidDataKeyId = base64.decode(base64DataKeyId);
     console.log('DataKeyId [UUID]: ', uuidDataKeyId);
