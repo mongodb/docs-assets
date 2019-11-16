@@ -1,4 +1,4 @@
-package com.example.csfle;
+package com.example.fle;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class JSONSChemaCreator {
         return new BasicDBObject().
                 append("encrypt", new BasicDBObject()
                         .append("bsonType", bsonType)
-                        .append("algorithm", 
+                        .append("algorithm",
                                 (isDeterministic) ? DETERMINISTIC_ENCRYPTION_TYPE : RANDOM_ENCRYPTION_TYPE));
     }
 
