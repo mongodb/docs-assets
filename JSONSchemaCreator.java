@@ -47,15 +47,12 @@ public class JSONSchemaCreator {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         JSONObject schema = createJSONSchema("<paste_your_key_id_here>"); // replace the "paste_your_key_id_here" with your data key id
 
         String path = "fle-schema.json";
         try (FileOutputStream stream = new FileOutputStream(path)) {
             stream.write(schema.toString().getBytes());
-
-        } catch (IOException e)  {
-            e.printStackTrace();
         }
 
         System.out.println(schema);
