@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.bson.Document;
 
-public class JSONSChemaCreator {
+public class JSONSchemaCreator {
     public static final String DETERMINISTIC_ENCRYPTION_TYPE = "AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic";
     public static final String RANDOM_ENCRYPTION_TYPE = "AEAD_AES_256_CBC_HMAC_SHA_512-Random";
 
