@@ -11,7 +11,7 @@ public class JSONSchemaCreator {
     public static final String DETERMINISTIC_ENCRYPTION_TYPE = "AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic";
     public static final String RANDOM_ENCRYPTION_TYPE = "AEAD_AES_256_CBC_HMAC_SHA_512-Random";
 
-    public static Document buildEncryptedField(String keyId, String bsonType, Boolean isDeterministic) {
+    public static Document buildEncryptedField(String bsonType, Boolean isDeterministic) {
         return new Document().
                 append("encrypt", new Document()
                         .append("bsonType", bsonType)
@@ -31,13 +31,13 @@ public class JSONSchemaCreator {
     public static Document createJSONSchema(String keyId) {
         return new Document().append("bsonType", "object").append("encryptMetadata", buildEncryptMetadata(keyId))
                 .append("properties", new Document()
-                        .append("ssn", buildEncryptedField(keyId, "int", true))
-                        .append("bloodType", buildEncryptedField(keyId, "string", false))
-                        .append("medicalRecords", buildEncryptedField(keyId, "array", false))
+                        .append("ssn", buildEncryptedField("int", true))
+                        .append("bloodType", buildEncryptedField("string", false))
+                        .append("medicalRecords", buildEncryptedField("array", false))
                         .append("insurance", new Document()
                                 .append("bsonType", "object")
                                 .append("properties",
-                                        new Document().append("policyNumber", buildEncryptedField(keyId, "int", true)))));
+                                        new Document().append("policyNumber", buildEncryptedField("int", true)))));
     }
 
     public static void main(String[] args) throws IOException {
