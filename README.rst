@@ -9,3 +9,5 @@ production site.
 
 All images in the MongoDB manual, with two exceptions, are generated
 at build time from svg sources.
+
+
